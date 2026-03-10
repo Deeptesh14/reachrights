@@ -1,0 +1,3102 @@
+Welcome to Node.js v24.14.0.
+Type ".help" for more information.
+> <!DOCTYPE html>
+<!DOCTYPE html>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <html lang="en">
+<html lang="en">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <head>
+<head>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <meta charset="UTF-8"/>
+<meta charset="UTF-8"/>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <title>ReachRight — Find Finance Jobs with Direct HR Contacts</title>
+<title>ReachRight — Find Finance Jobs with Direct HR Contacts</title>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <meta name="description" content="Upload your resume. Get 10 matched jobs with real HR emails in 60 seconds. One-time₹199."/>
+<meta name="description" content="Upload your resume. Get 10 matched jobs with real HR emails in 60 seconds. One-time ₹199."/>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <style>
+<style>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+^
+
+Uncaught SyntaxError: Unexpected token '*'
+> :root{
+:root{
+^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --black:#09090b;
+  --black:#09090b;
+         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --surface:#111113;
+  --surface:#111113;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --surface2:#18181b;
+  --surface2:#18181b;
+            ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --border:#27272a;
+  --border:#27272a;
+          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --gold:#c9a84c;
+  --gold:#c9a84c;
+        ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --gold2:#e2c170;
+  --gold2:#e2c170;
+         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --text:#71717a;
+  --text:#71717a;
+        ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --text2:#a1a1aa;
+  --text2:#a1a1aa;
+         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --white:#fafafa;
+  --white:#fafafa;
+         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   --green:#22c55e;
+  --green:#22c55e;
+         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> html{scroll-behavior:smooth}
+html{scroll-behavior:smooth}
+    ^
+
+Uncaught SyntaxError: Unexpected token '{'
+> body{background:var(--black);color:var(--text2);font-family:'Instrument Sans',sans-serif;overflow-x:hidden}
+body{background:var(--black);color:var(--text2);font-family:'Instrument Sans',sans-serif;overflow-x:hidden}
+    ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>
+> /* NAV */
+undefined
+> nav{
+nav{
+   ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>   position:fixed;top:0;left:0;right:0;z-index:100;
+  position:fixed;top:0;left:0;right:0;z-index:100;
+                                             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   display:flex;align-items:center;justify-content:space-between;
+  display:flex;align-items:center;justify-content:space-between;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   padding:20px 64px;
+  padding:20px 64px;
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background:rgba(9,9,11,0.92);
+Uncaught ReferenceError: rgba is not defined
+>   backdrop-filter:blur(20px);
+  backdrop-filter:blur(20px);
+                 ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   border-bottom:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .logo{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;font-size:20px;font-weight:400;
+  font-family:'Fraunces',serif;font-size:20px;font-weight:400;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:var(--white);text-decoration:none;display:flex;align-items:center;gap:8px;
+  color:var(--white);text-decoration:none;display:flex;align-items:center;gap:8px;
+           ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   letter-spacing:-0.3px;
+  letter-spacing:-0.3px;
+                ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .logo-dot{
+Invalid REPL keyword
+>   width:6px;height:6px;border-radius:50%;background:var(--gold);
+  width:6px;height:6px;border-radius:50%;background:var(--gold);
+        ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   animation:blink 2.5s ease-in-out infinite;flex-shrink:0;
+  animation:blink 2.5s ease-in-out infinite;flex-shrink:0;
+                  ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> @keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}
+^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> .nav-links{display:flex;gap:36px}
+Invalid REPL keyword
+> .nav-links a{font-size:13px;font-weight:500;color:var(--text);text-decoration:none;transition:color .15s}
+Invalid REPL keyword
+> .nav-links a:hover{color:var(--white)}
+Invalid REPL keyword
+> .nav-cta{
+Invalid REPL keyword
+>   background:var(--white);color:var(--black);border:none;border-radius:6px;
+  background:var(--white);color:var(--black);border:none;border-radius:6px;
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   padding:10px 24px;font-size:13px;font-weight:600;cursor:pointer;
+  padding:10px 24px;font-size:13px;font-weight:600;cursor:pointer;
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;
+  font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .nav-cta:hover{background:var(--gold2)}
+Invalid REPL keyword
+>
+> /* HERO */
+undefined
+> .hero{
+Invalid REPL keyword
+>   min-height:100vh;display:flex;flex-direction:column;justify-content:center;
+  min-height:100vh;display:flex;flex-direction:column;justify-content:center;
+            ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   padding:160px 64px 100px;border-bottom:1px solid var(--border);
+  padding:160px 64px 100px;border-bottom:1px solid var(--border);
+          ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   position:relative;overflow:hidden;
+Uncaught ReferenceError: relative is not defined
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .hero-grid{
+Invalid REPL keyword
+>   position:absolute;inset:0;
+Uncaught ReferenceError: absolute is not defined
+>   background-image:
+  background-image:
+                  ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>     linear-gradient(rgba(201,168,76,0.03) 1px,transparent 1px),
+    linear-gradient(rgba(201,168,76,0.03) 1px,transparent 1px),
+                                        ^
+
+Uncaught SyntaxError: missing ) after argument list
+>     linear-gradient(90deg,rgba(201,168,76,0.03) 1px,transparent 1px);
+    linear-gradient(90deg,rgba(201,168,76,0.03) 1px,transparent 1px);
+                    ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background-size:64px 64px;pointer-events:none;
+  background-size:64px 64px;pointer-events:none;
+                 ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .hero-glow{
+Invalid REPL keyword
+>   position:absolute;top:10%;right:-5%;
+  position:absolute;top:10%;right:-5%;
+                           ^
+
+Uncaught SyntaxError: Unexpected token ';'
+>   width:700px;height:700px;border-radius:50%;
+  width:700px;height:700px;border-radius:50%;
+        ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background:radial-gradient(circle,rgba(201,168,76,0.05) 0%,transparent 70%);
+  background:radial-gradient(circle,rgba(201,168,76,0.05) 0%,transparent 70%);
+                                                        ^
+
+Uncaught SyntaxError: missing ) after argument list
+>   pointer-events:none;
+  pointer-events:none;
+                ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .badge{
+Invalid REPL keyword
+>   display:inline-flex;align-items:center;gap:8px;
+  display:inline-flex;align-items:center;gap:8px;
+                                 ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.2);
+  background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.2);
+                                          ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   padding:7px 18px;border-radius:100px;margin-bottom:36px;width:fit-content;
+  padding:7px 18px;border-radius:100px;margin-bottom:36px;width:fit-content;
+          ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .badge-dot{width:5px;height:5px;border-radius:50%;background:var(--gold);animation:blink 2s infinite}
+Invalid REPL keyword
+> .badge span{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
+Invalid REPL keyword
+> h1{
+h1{
+  ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>   font-family:'Fraunces',serif;
+  font-family:'Fraunces',serif;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-size:clamp(52px,7vw,96px);
+  font-size:clamp(52px,7vw,96px);
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-weight:300;line-height:1.0;
+  font-weight:300;line-height:1.0;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:var(--white);letter-spacing:-3px;
+  color:var(--white);letter-spacing:-3px;
+           ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   max-width:900px;margin-bottom:28px;
+  max-width:900px;margin-bottom:28px;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> h1 em{font-style:italic;color:var(--gold)}
+h1 em{font-style:italic;color:var(--gold)}
+   ^^
+
+Uncaught SyntaxError: Unexpected identifier 'em'
+> .hero-sub{
+Invalid REPL keyword
+>   font-size:18px;line-height:1.8;color:var(--text2);
+  font-size:18px;line-height:1.8;color:var(--text2);
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   max-width:520px;margin-bottom:48px;
+  max-width:520px;margin-bottom:48px;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .hero-sub strong{color:var(--white);font-weight:500}
+Invalid REPL keyword
+> .hero-btns{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:72px}
+Invalid REPL keyword
+> .btn-primary{
+Invalid REPL keyword
+>   background:var(--gold);color:var(--black);border:none;border-radius:7px;
+  background:var(--gold);color:var(--black);border:none;border-radius:7px;
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   padding:16px 36px;font-size:15px;font-weight:700;cursor:pointer;
+  padding:16px 36px;font-size:15px;font-weight:700;cursor:pointer;
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   font-family:'Instrument Sans',sans-serif;transition:all .22s;
+  font-family:'Instrument Sans',sans-serif;transition:all .22s;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   text-decoration:none;display:inline-block;letter-spacing:0.2px;
+  text-decoration:none;display:inline-block;letter-spacing:0.2px;
+                 ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .btn-primary:hover{background:var(--gold2);transform:translateY(-2px);box-shadow:0 16px 48px rgba(201,168,76,0.2)}
+Invalid REPL keyword
+> .btn-ghost{
+Invalid REPL keyword
+>   background:transparent;color:var(--text2);border:1px solid var(--border);
+  background:transparent;color:var(--text2);border:1px solid var(--border);
+                                  ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   border-radius:7px;padding:16px 28px;font-size:14px;font-weight:500;cursor:pointer;
+  border-radius:7px;padding:16px 28px;font-size:14px;font-weight:500;cursor:pointer;
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;display:inline-block;
+  font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;display:inline-block;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .btn-ghost:hover{border-color:rgba(255,255,255,0.2);color:var(--white)}
+Invalid REPL keyword
+> .hero-stats{display:flex;gap:0;flex-wrap:wrap}
+Invalid REPL keyword
+> .hstat{padding:0 40px 0 0;border-right:1px solid var(--border);margin-right:40px}
+Invalid REPL keyword
+> .hstat:last-child{border-right:none;margin-right:0;padding-right:0}
+Invalid REPL keyword
+> .hstat-val{font-family:'Fraunces',serif;font-size:32px;font-weight:300;color:var(--white);line-height:1;letter-spacing:-1px}
+Invalid REPL keyword
+> .hstat-lbl{font-size:11px;color:var(--text);letter-spacing:1.5px;text-transform:uppercase;margin-top:6px}
+Invalid REPL keyword
+>
+> /* TICKER */
+undefined
+> .ticker-wrap{
+Invalid REPL keyword
+>   background:var(--surface);border-bottom:1px solid var(--border);
+  background:var(--surface);border-bottom:1px solid var(--border);
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   padding:14px 0;overflow:hidden;
+  padding:14px 0;overflow:hidden;
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .ticker-inner{display:flex;animation:ticker 40s linear infinite;width:max-content}
+Invalid REPL keyword
+> @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> .t{
+Invalid REPL keyword
+>   font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:var(--text);padding:0 32px;border-right:1px solid var(--border);
+  color:var(--text);padding:0 32px;border-right:1px solid var(--border);
+           ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   white-space:nowrap;line-height:1;
+  white-space:nowrap;line-height:1;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .t.g{color:var(--gold)}
+Invalid REPL keyword
+>
+> /* PROOF */
+undefined
+> .proof{
+Invalid REPL keyword
+>   padding:36px 64px;border-bottom:1px solid var(--border);
+  padding:36px 64px;border-bottom:1px solid var(--border);
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   display:flex;align-items:center;gap:48px;flex-wrap:wrap;
+  display:flex;align-items:center;gap:48px;flex-wrap:wrap;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .proof-lbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--text);flex-shrink:0}
+Invalid REPL keyword
+> .proof-logos{display:flex;gap:40px;flex-wrap:wrap;align-items:center}
+Invalid REPL keyword
+> .proof-logo{font-family:'Fraunces',serif;font-size:15px;color:rgba(255,255,255,0.18);letter-spacing:-0.2px}
+Invalid REPL keyword
+>
+> /* PROBLEM */
+undefined
+> .problem{
+Invalid REPL keyword
+>   display:grid;grid-template-columns:1fr 1fr;
+  display:grid;grid-template-columns:1fr 1fr;
+                                    ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   border-bottom:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .problem-left{
+Invalid REPL keyword
+>   padding:80px 64px;border-right:1px solid var(--border);
+  padding:80px 64px;border-right:1px solid var(--border);
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   display:flex;flex-direction:column;justify-content:center;
+  display:flex;flex-direction:column;justify-content:center;
+                             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .problem-right{padding:80px 64px;display:flex;flex-direction:column;justify-content:center;background:var(--surface)}
+Invalid REPL keyword
+> .sec-tag{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+Invalid REPL keyword
+> h2{
+h2{
+  ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>   font-family:'Fraunces',serif;font-size:clamp(32px,3.5vw,52px);
+  font-family:'Fraunces',serif;font-size:clamp(32px,3.5vw,52px);
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-weight:300;color:var(--white);line-height:1.08;letter-spacing:-1.5px;margin-bottom:20px;
+  font-weight:300;color:var(--white);line-height:1.08;letter-spacing:-1.5px;margin-bottom:20px;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> h2 em{font-style:italic;color:var(--gold)}
+h2 em{font-style:italic;color:var(--gold)}
+   ^^
+
+Uncaught SyntaxError: Unexpected identifier 'em'
+> .problem-desc{font-size:15px;line-height:1.85;color:var(--text2)}
+Invalid REPL keyword
+> .pain-list{display:flex;flex-direction:column;margin-top:8px}
+Invalid REPL keyword
+> .pain{display:flex;gap:20px;padding:22px 0;border-top:1px solid var(--border)}
+Invalid REPL keyword
+> .pain-n{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;font-size:11px;color:rgba(201,168,76,0.5);
+  font-family:'Fraunces',serif;font-size:11px;color:rgba(201,168,76,0.5);
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   flex-shrink:0;padding-top:3px;letter-spacing:1px;
+  flex-shrink:0;padding-top:3px;letter-spacing:1px;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .pain h4{font-size:14px;font-weight:600;color:var(--white);margin-bottom:5px;letter-spacing:-0.2px}
+Invalid REPL keyword
+> .pain p{font-size:13px;color:var(--text2);line-height:1.65}
+Invalid REPL keyword
+>
+> /* HOW IT WORKS */
+undefined
+> .hiw-wrap{border-bottom:1px solid var(--border)}
+Invalid REPL keyword
+> .hiw{max-width:1200px;margin:0 auto;padding:96px 64px}
+Invalid REPL keyword
+> .hiw-top{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:64px;flex-wrap:wrap;gap:24px}
+Invalid REPL keyword
+> .hiw-top p{font-size:14px;color:var(--text2);max-width:280px;line-height:1.75}
+Invalid REPL keyword
+> .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border)}
+Invalid REPL keyword
+> .step{
+Invalid REPL keyword
+>   background:var(--black);padding:40px 28px;
+  background:var(--black);padding:40px 28px;
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   position:relative;overflow:hidden;transition:background .25s;
+  position:relative;overflow:hidden;transition:background .25s;
+                                                          ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .step:hover{background:var(--surface)}
+Invalid REPL keyword
+> .step-bg-n{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;font-size:88px;font-weight:300;
+  font-family:'Fraunces',serif;font-size:88px;font-weight:300;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:rgba(255,255,255,0.025);position:absolute;top:8px;right:14px;
+  color:rgba(255,255,255,0.025);position:absolute;top:8px;right:14px;
+                                                      ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   line-height:1;pointer-events:none;letter-spacing:-4px;
+  line-height:1;pointer-events:none;letter-spacing:-4px;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .step-tag{
+Invalid REPL keyword
+>   font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:var(--gold);margin-bottom:16px;display:block;
+  color:var(--gold);margin-bottom:16px;display:block;
+           ^
+
+Uncaught SyntaxError: Unexpected token '('
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .step h3{font-size:15px;font-weight:600;color:var(--white);margin-bottom:10px;letter-spacing:-0.2px}
+Invalid REPL keyword
+> .step p{font-size:13px;color:var(--text2);line-height:1.7}
+Invalid REPL keyword
+>
+> /* FEATURES */
+undefined
+> .feat-section{padding:96px 0;border-bottom:1px solid var(--border)}
+Invalid REPL keyword
+> .feat-head{padding:0 64px;margin-bottom:56px}
+Invalid REPL keyword
+> .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+Invalid REPL keyword
+> .feat{
+Invalid REPL keyword
+>   background:var(--black);padding:44px 36px;
+  background:var(--black);padding:44px 36px;
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   position:relative;overflow:hidden;transition:background .25s;
+  position:relative;overflow:hidden;transition:background .25s;
+                                                          ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .feat:hover{background:var(--surface)}
+Invalid REPL keyword
+> .feat::before{
+Invalid REPL keyword
+>   content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+                                                           ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+                             ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   opacity:0;transition:opacity .25s;
+  opacity:0;transition:opacity .25s;
+                               ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .feat:hover::before{opacity:1}
+Invalid REPL keyword
+> .feat-tag{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;display:block}
+Invalid REPL keyword
+> .feat h3{font-size:16px;font-weight:600;color:var(--white);margin-bottom:10px;letter-spacing:-0.2px}
+Invalid REPL keyword
+> .feat p{font-size:13px;color:var(--text2);line-height:1.78}
+Invalid REPL keyword
+> .feat-num{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;font-size:48px;font-weight:300;
+  font-family:'Fraunces',serif;font-size:48px;font-weight:300;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:rgba(201,168,76,0.12);line-height:1;margin-bottom:20px;letter-spacing:-2px;
+  color:rgba(201,168,76,0.12);line-height:1;margin-bottom:20px;letter-spacing:-2px;
+                                         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+>
+> /* TESTIMONIALS */
+undefined
+> .testi-section{padding:96px 64px;border-bottom:1px solid var(--border)}
+Invalid REPL keyword
+> .testi-head{margin-bottom:52px}
+Invalid REPL keyword
+> .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+Invalid REPL keyword
+> .testi{
+Invalid REPL keyword
+>   background:var(--surface);border:1px solid var(--border);
+  background:var(--surface);border:1px solid var(--border);
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   border-radius:14px;padding:32px;transition:border-color .2s;
+  border-radius:14px;padding:32px;transition:border-color .2s;
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .testi:hover{border-color:rgba(201,168,76,0.22)}
+Invalid REPL keyword
+> .testi-stars{color:var(--gold);font-size:12px;letter-spacing:3px;margin-bottom:14px}
+Invalid REPL keyword
+> .testi-mark{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;font-size:56px;color:var(--gold);
+  font-family:'Fraunces',serif;font-size:56px;color:var(--gold);
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   opacity:0.1;line-height:0.75;margin-bottom:14px;
+  opacity:0.1;line-height:0.75;margin-bottom:14px;
+                         ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .testi-text{font-size:14px;line-height:1.82;color:var(--white);margin-bottom:24px}
+Invalid REPL keyword
+> .testi-line{height:1px;background:var(--border);margin-bottom:20px}
+Invalid REPL keyword
+> .testi-person{display:flex;align-items:center;gap:13px}
+Invalid REPL keyword
+> .testi-av{
+Invalid REPL keyword
+>   width:40px;height:40px;border-radius:50%;
+  width:40px;height:40px;border-radius:50%;
+        ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background:linear-gradient(135deg,var(--gold),#7a5a10);
+  background:linear-gradient(135deg,var(--gold),#7a5a10);
+                             ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   display:flex;align-items:center;justify-content:center;
+  display:flex;align-items:center;justify-content:center;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-family:'Fraunces',serif;font-size:16px;color:var(--black);flex-shrink:0;
+  font-family:'Fraunces',serif;font-size:16px;color:var(--black);flex-shrink:0;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .testi-name{font-size:13px;font-weight:600;color:var(--white)}
+Invalid REPL keyword
+> .testi-role{font-size:12px;color:var(--text);margin-top:2px}
+Invalid REPL keyword
+>
+> /* PRICING */
+undefined
+> .pricing-section{padding:96px 64px;border-bottom:1px solid var(--border)}
+Invalid REPL keyword
+> .pricing-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+Invalid REPL keyword
+> .pricing-left p{font-size:15px;color:var(--text2);line-height:1.8;margin:18px 0 32px}
+Invalid REPL keyword
+> .check-list{display:flex;flex-direction:column;gap:13px}
+Invalid REPL keyword
+> .check-row{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text2)}
+Invalid REPL keyword
+> .check-dot{
+Invalid REPL keyword
+>   width:20px;height:20px;border-radius:50%;
+  width:20px;height:20px;border-radius:50%;
+        ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.22);
+  background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.22);
+                                         ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-size:11px;color:var(--green);font-weight:700;
+  font-size:11px;color:var(--green);font-weight:700;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .price-card{
+Invalid REPL keyword
+>   background:var(--surface);border:1px solid rgba(201,168,76,0.2);
+  background:var(--surface);border:1px solid rgba(201,168,76,0.2);
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   border-radius:18px;padding:44px;position:relative;overflow:hidden;
+  border-radius:18px;padding:44px;position:relative;overflow:hidden;
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .price-card::before{
+Invalid REPL keyword
+>   content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+                                                           ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+                             ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .beta-pill{
+Invalid REPL keyword
+>   display:inline-flex;align-items:center;gap:7px;
+  display:inline-flex;align-items:center;gap:7px;
+                                 ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);
+  background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);
+                                         ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   padding:6px 16px;border-radius:100px;font-size:11px;font-weight:700;
+  padding:6px 16px;border-radius:100px;font-size:11px;font-weight:700;
+          ^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   color:var(--green);margin-bottom:24px;letter-spacing:0.5px;
+  color:var(--green);margin-bottom:24px;letter-spacing:0.5px;
+           ^
+
+Uncaught SyntaxError: Unexpected token '('
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .price-display{display:flex;align-items:flex-start;gap:4px;margin-bottom:6px}
+Invalid REPL keyword
+> .price-sym{font-family:'Fraunces',serif;font-size:24px;color:var(--text);margin-top:14px}
+Invalid REPL keyword
+> .price-num{font-family:'Fraunces',serif;font-size:76px;font-weight:300;color:var(--white);line-height:1;letter-spacing:-4px}
+Invalid REPL keyword
+> .price-note{font-size:13px;color:var(--text);margin-bottom:30px}
+Invalid REPL keyword
+> .price-note s{color:rgba(255,255,255,0.2)}
+Invalid REPL keyword
+> .price-btn{
+Invalid REPL keyword
+>   width:100%;background:var(--gold);color:var(--black);border:none;
+  width:100%;background:var(--gold);color:var(--black);border:none;
+            ^
+
+Uncaught SyntaxError: Unexpected token ';'
+>   border-radius:8px;padding:17px;font-size:15px;font-weight:700;cursor:pointer;
+  border-radius:8px;padding:17px;font-size:15px;font-weight:700;cursor:pointer;
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;
+  font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   display:block;text-align:center;margin-bottom:14px;
+  display:block;text-align:center;margin-bottom:14px;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .price-btn:hover{background:var(--gold2);transform:translateY(-1px);box-shadow:0 12px 40px rgba(201,168,76,0.2)}
+Invalid REPL keyword
+> .price-secure{font-size:12px;color:var(--text);text-align:center}
+Invalid REPL keyword
+>
+> /* CATEGORIES */
+undefined
+> .cat-section{padding:80px 64px;border-bottom:1px solid var(--border);background:var(--surface)}
+Invalid REPL keyword
+> .cat-inner{max-width:1100px;margin:0 auto}
+Invalid REPL keyword
+> .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);margin-top:48px}
+Invalid REPL keyword
+> .cat{
+Invalid REPL keyword
+>   background:var(--black);padding:36px 28px;
+  background:var(--black);padding:36px 28px;
+                ^
+
+Uncaught SyntaxError: Unexpected token '('
+>   transition:background .2s;border:none;
+  transition:background .2s;border:none;
+                        ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .cat:hover{background:var(--surface2)}
+Invalid REPL keyword
+> .cat-letter{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;font-size:40px;font-weight:300;
+  font-family:'Fraunces',serif;font-size:40px;font-weight:300;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   color:rgba(201,168,76,0.2);line-height:1;margin-bottom:18px;letter-spacing:-1px;
+  color:rgba(201,168,76,0.2);line-height:1;margin-bottom:18px;letter-spacing:-1px;
+                                        ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .cat h3{font-size:15px;font-weight:600;color:var(--white);margin-bottom:10px}
+Invalid REPL keyword
+> .cat p{font-size:12px;color:var(--text);line-height:1.65}
+Invalid REPL keyword
+>
+> /* FAQ */
+undefined
+> .faq-section{padding:80px 64px;border-bottom:1px solid var(--border)}
+Invalid REPL keyword
+> .faq-inner{max-width:680px;margin:0 auto}
+Invalid REPL keyword
+> .faq-item{border-top:1px solid var(--border)}
+Invalid REPL keyword
+> .faq-item:last-child{border-bottom:1px solid var(--border)}
+Invalid REPL keyword
+> .faq-btn{
+Invalid REPL keyword
+>   width:100%;background:none;border:none;padding:22px 0;
+  width:100%;background:none;border:none;padding:22px 0;
+            ^
+
+Uncaught SyntaxError: Unexpected token ';'
+>   display:flex;justify-content:space-between;align-items:center;
+  display:flex;justify-content:space-between;align-items:center;
+                              ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   cursor:pointer;gap:20px;text-align:left;
+  cursor:pointer;gap:20px;text-align:left;
+                     ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .faq-q{font-size:15px;font-weight:500;color:var(--white);font-family:'Instrument Sans',sans-serif;line-height:1.4}
+Invalid REPL keyword
+> .faq-ic{
+Invalid REPL keyword
+>   width:28px;height:28px;border-radius:50%;border:1px solid var(--border);
+  width:28px;height:28px;border-radius:50%;border:1px solid var(--border);
+        ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-size:18px;color:var(--gold);transition:all .2s;font-weight:300;line-height:1;
+  font-size:18px;color:var(--gold);transition:all .2s;font-weight:300;line-height:1;
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .faq-btn.open .faq-ic{background:var(--gold);color:var(--black);border-color:var(--gold);transform:rotate(45deg)}
+Invalid REPL keyword
+> .faq-body{max-height:0;overflow:hidden;transition:max-height .32s ease,padding .32s ease}
+Invalid REPL keyword
+> .faq-body.open{max-height:200px;padding-bottom:24px}
+Invalid REPL keyword
+> .faq-body p{font-size:14px;color:var(--text2);line-height:1.82}
+Invalid REPL keyword
+>
+> /* WAITLIST */
+undefined
+> .wl-section{
+Invalid REPL keyword
+>   padding:120px 64px;text-align:center;position:relative;overflow:hidden;
+  padding:120px 64px;text-align:center;position:relative;overflow:hidden;
+          ^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .wl-glow{
+Invalid REPL keyword
+>   position:absolute;inset:0;
+Uncaught ReferenceError: absolute is not defined
+>   background:radial-gradient(ellipse 70% 55% at 50% 50%,rgba(201,168,76,0.05) 0%,transparent 100%);
+  background:radial-gradient(ellipse 70% 55% at 50% 50%,rgba(201,168,76,0.05) 0%,transparent 100%);
+                             ^^^^^^^
+
+Uncaught SyntaxError: missing ) after argument list
+>   pointer-events:none;
+  pointer-events:none;
+                ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .wl-section h2{
+Invalid REPL keyword
+>   font-family:'Fraunces',serif;
+  font-family:'Fraunces',serif;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-size:clamp(40px,6vw,76px);
+  font-size:clamp(40px,6vw,76px);
+           ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   font-weight:300;color:var(--white);letter-spacing:-2.5px;
+  font-weight:300;color:var(--white);letter-spacing:-2.5px;
+             ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   margin-bottom:18px;position:relative;
+  margin-bottom:18px;position:relative;
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .wl-section h2 em{font-style:italic;color:var(--gold)}
+Invalid REPL keyword
+> .wl-section>p{font-size:16px;color:var(--text2);margin-bottom:52px;position:relative;line-height:1.75}
+Invalid REPL keyword
+> .wl-box{max-width:440px;margin:0 auto;position:relative}
+Invalid REPL keyword
+> .wl-btn{
+Invalid REPL keyword
+>   display:flex;align-items:center;justify-content:center;gap:10px;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+                          ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   width:100%;background:var(--gold);color:var(--black);border:none;
+  width:100%;background:var(--gold);color:var(--black);border:none;
+            ^
+
+Uncaught SyntaxError: Unexpected token ';'
+>   border-radius:10px;padding:20px 32px;font-size:16px;font-weight:700;
+  border-radius:10px;padding:20px 32px;font-size:16px;font-weight:700;
+               ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .22s;
+  cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .22s;
+                            ^
+
+Uncaught SyntaxError: Unexpected token ':'
+>   text-decoration:none;letter-spacing:0.2px;
+  text-decoration:none;letter-spacing:0.2px;
+                 ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .wl-btn:hover{background:var(--gold2);transform:translateY(-3px);box-shadow:0 24px 64px rgba(201,168,76,0.2)}
+Invalid REPL keyword
+> .wl-btn-arrow{font-size:18px;transition:transform .2s}
+Invalid REPL keyword
+> .wl-btn:hover .wl-btn-arrow{transform:translateX(4px)}
+Invalid REPL keyword
+> .wl-note{font-size:12px;color:var(--text);margin-top:16px}
+Invalid REPL keyword
+>
+> /* FOOTER */
+undefined
+> footer{
+footer{
+      ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>   padding:44px 64px;border-top:1px solid var(--border);
+  padding:44px 64px;border-top:1px solid var(--border);
+          ^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+                              ^
+
+Uncaught SyntaxError: Unexpected token ':'
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> .foot-logo{font-family:'Fraunces',serif;font-size:19px;color:var(--white);text-decoration:none;display:flex;align-items:center;gap:8px}
+Invalid REPL keyword
+> .foot-links{display:flex;gap:28px}
+Invalid REPL keyword
+> .foot-links a{font-size:12px;color:var(--text);text-decoration:none;transition:color .15s}
+Invalid REPL keyword
+> .foot-links a:hover{color:var(--white)}
+Invalid REPL keyword
+> .foot-copy{font-size:12px;color:rgba(255,255,255,0.2)}
+Invalid REPL keyword
+>
+> /* REVEAL */
+undefined
+> .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+Invalid REPL keyword
+> .reveal.in{opacity:1;transform:none}
+Invalid REPL keyword
+> .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+Invalid REPL keyword
+>
+> /* RESPONSIVE */
+undefined
+> @media(max-width:960px){
+@media(max-width:960px){
+^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>   nav{padding:16px 20px}.nav-links{display:none}
+  nav{padding:16px 20px}.nav-links{display:none}
+     ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>   .hero{padding:110px 24px 60px}
+Invalid REPL keyword
+>   .problem{grid-template-columns:1fr}.problem-left{border-right:none;border-bottom:1px solid var(--border);padding:56px 24px}.problem-right{padding:56px 24px}
+Invalid REPL keyword
+>   .hiw{padding:60px 24px}.steps{grid-template-columns:1fr 1fr}
+Invalid REPL keyword
+>   .feat-head{padding:0 24px}.feat-grid{grid-template-columns:1fr}
+Invalid REPL keyword
+>   .testi-section{padding:60px 24px}.testi-grid{grid-template-columns:1fr}
+Invalid REPL keyword
+>   .pricing-section{padding:60px 24px}.pricing-inner{grid-template-columns:1fr;gap:48px}
+Invalid REPL keyword
+>   .cat-section{padding:60px 24px}.cat-grid{grid-template-columns:1fr 1fr}
+Invalid REPL keyword
+>   .faq-section,.wl-section{padding:60px 24px}
+Invalid REPL keyword
+>   footer{padding:28px 24px;flex-direction:column;text-align:center}
+  footer{padding:28px 24px;flex-direction:column;text-align:center}
+        ^
+
+Uncaught SyntaxError: Unexpected token '{'
+>   .proof{padding:28px 24px}
+Invalid REPL keyword
+>   .hstat{padding-right:24px;margin-right:24px}
+Invalid REPL keyword
+> }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> </style>
+</style>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </head>
+</head>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> <body>
+<body>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- NAV -->
+undefined
+> <nav>
+<nav>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <a href="#" class="logo"><span class="logo-dot"></span>ReachRight</a>
+  <a href="#" class="logo"><span class="logo-dot"></span>ReachRight</a>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="nav-links">
+  <div class="nav-links">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#how">How it works</a>
+    <a href="#how">How it works</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#features">Features</a>
+    <a href="#features">Features</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#pricing">Pricing</a>
+    <a href="#pricing">Pricing</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#faq">FAQ</a>
+    <a href="#faq">FAQ</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <a href="#waitlist" class="nav-cta">Join Waitlist</a>
+  <a href="#waitlist" class="nav-cta">Join Waitlist</a>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </nav>
+</nav>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- HERO -->
+undefined
+> <section class="hero">
+<section class="hero">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="hero-grid"></div>
+  <div class="hero-grid"></div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="hero-glow"></div>
+  <div class="hero-glow"></div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="badge reveal">
+  <div class="badge reveal">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="badge-dot"></span>
+    <span class="badge-dot"></span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span>AI-Powered · India · Beta</span>
+    <span>AI-Powered · India · Beta</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <h1 class="reveal d1">
+  <h1 class="reveal d1">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     Stop applying.<br><em>Start reaching.</em>
+    Stop applying.<br><em>Start reaching.</em>
+         ^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'applying'
+>   </h1>
+  </h1>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <p class="hero-sub reveal d2">
+  <p class="hero-sub reveal d2">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     Upload your resume. Get <strong>10 curated job matches</strong> with real HR names, emails and LinkedIn profiles — in under 60 seconds. Skip the queue.
+    Upload your resume. Get <strong>10 curated job matches</strong> with real HR names, emails and LinkedIn profiles — in under 60 seconds. Skip the queue.
+           ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'your'
+>   </p>
+  </p>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="hero-btns reveal d3">
+  <div class="hero-btns reveal d3">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#waitlist" class="btn-primary">Get Early Access →</a>
+    <a href="#waitlist" class="btn-primary">Get Early Access →</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#how" class="btn-ghost">See how it works</a>
+    <a href="#how" class="btn-ghost">See how it works</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="hero-stats reveal">
+  <div class="hero-stats reveal">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="hstat">
+    <div class="hstat">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-val">10</div>
+      <div class="hstat-val">10</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-lbl">Jobs matched</div>
+      <div class="hstat-lbl">Jobs matched</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="hstat">
+    <div class="hstat">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-val">60s</div>
+      <div class="hstat-val">60s</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-lbl">Delivery time</div>
+      <div class="hstat-lbl">Delivery time</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="hstat">
+    <div class="hstat">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-val">₹199</div>
+      <div class="hstat-val">₹199</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-lbl">One-time only</div>
+      <div class="hstat-lbl">One-time only</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="hstat">
+    <div class="hstat">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-val">4</div>
+      <div class="hstat-val">4</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="hstat-lbl">Career fields</div>
+      <div class="hstat-lbl">Career fields</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- TICKER -->
+undefined
+> <div class="ticker-wrap">
+<div class="ticker-wrap">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="ticker-inner">
+  <div class="ticker-inner">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="t g">ReachRight</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><spanclass="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">₹199 One-Time</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
+    <span class="t g">ReachRight</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><span class="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">₹199 One-Time</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="t g">ReachRight</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><spanclass="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">₹199 One-Time</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
+    <span class="t g">ReachRight</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><span class="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">₹199 One-Time</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </div>
+</div>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- PROOF BAR -->
+undefined
+> <div class="proof">
+<div class="proof">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <span class="proof-lbl">Roles at firms like</span>
+  <span class="proof-lbl">Roles at firms like</span>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="proof-logos">
+  <div class="proof-logos">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">Motilal Oswal</span>
+    <span class="proof-logo">Motilal Oswal</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">Edelweiss</span>
+    <span class="proof-logo">Edelweiss</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">Avendus</span>
+    <span class="proof-logo">Avendus</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">IIFL</span>
+    <span class="proof-logo">IIFL</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">Kotak IB</span>
+    <span class="proof-logo">Kotak IB</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">Nuvama</span>
+    <span class="proof-logo">Nuvama</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">360 One</span>
+    <span class="proof-logo">360 One</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <span class="proof-logo">Mirae Asset</span>
+    <span class="proof-logo">Mirae Asset</span>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </div>
+</div>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- PROBLEM -->
+undefined
+> <section class="problem">
+<section class="problem">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="problem-left">
+  <div class="problem-left">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="sec-tag reveal">The Problem</div>
+    <div class="sec-tag reveal">The Problem</div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <h2 class="reveal">Job boards<br>are <em>broken.</em></h2>
+    <h2 class="reveal">Job boards<br>are <em>broken.</em></h2>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <p class="problem-desc reveal">You spend hours on Naukri and LinkedIn — crafting applications that vanish into a black hole. No response. No contact. No idea what went wrong.</p>
+    <p class="problem-desc reveal">You spend hours on Naukri and LinkedIn — crafting applications that vanish into a black hole. No response. No contact. No idea what went wrong.</p>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="problem-right">
+  <div class="problem-right">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="pain-list">
+    <div class="pain-list">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="pain reveal">
+      <div class="pain reveal">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="pain-n">01</span>
+        <span class="pain-n">01</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div>
+        <div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <h4>100+ applications, zero callbacks</h4>
+          <h4>100+ applications, zero callbacks</h4>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <p>Your resume competes with thousands. Recruiters see a number, not a person.</p>
+          <p>Your resume competes with thousands. Recruiters see a number, not a person.</p>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="pain reveal d1">
+      <div class="pain reveal d1">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="pain-n">02</span>
+        <span class="pain-n">02</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div>
+        <div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <h4>No direct HR contact anywhere</h4>
+          <h4>No direct HR contact anywhere</h4>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <p>Job postings hide who the recruiter is. You apply blind with no follow-up path.</p>
+          <p>Job postings hide who the recruiter is. You apply blind with no follow-up path.</p>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="pain reveal d2">
+      <div class="pain reveal d2">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="pain-n">03</span>
+        <span class="pain-n">03</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div>
+        <div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <h4>Weeks of effort, nothing to show</h4>
+          <h4>Weeks of effort, nothing to show</h4>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <p>Tailoring resumes for roles that may not even match your actual background.</p>
+          <p>Tailoring resumes for roles that may not even match your actual background.</p>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- HOW IT WORKS -->
+undefined
+> <section class="hiw-wrap" id="how">
+<section class="hiw-wrap" id="how">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="hiw">
+  <div class="hiw">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="hiw-top">
+    <div class="hiw-top">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div>
+      <div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="sec-tag reveal">How It Works</div>
+        <div class="sec-tag reveal">How It Works</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h2 class="reveal">Four steps to<br>your next <em>offer.</em></h2>
+        <h2 class="reveal">Four steps to<br>your next <em>offer.</em></h2>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p class="reveal">From resume upload to 10 matched HR contacts in 60 seconds. No job boards, no middlemen.</p>
+      <p class="reveal">From resume upload to 10 matched HR contacts in 60 seconds. No job boards, no middlemen.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="steps">
+    <div class="steps">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="step reveal">
+      <div class="step reveal">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="step-bg-n">1</div>
+        <div class="step-bg-n">1</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="step-tag">Step 01</span>
+        <span class="step-tag">Step 01</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Upload Resume</h3>
+        <h3>Upload Resume</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>Drop your PDF. AI extracts your skills, experience level, and career goals instantly.</p>
+        <p>Drop your PDF. AI extracts your skills, experience level, and career goals instantly.</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="step reveal d1">
+      <div class="step reveal d1">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="step-bg-n">2</div>
+        <div class="step-bg-n">2</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="step-tag">Step 02</span>
+        <span class="step-tag">Step 02</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Pick Your Field</h3>
+        <h3>Pick Your Field</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>Finance, Sales, Marketing, or Operations. Select your target sector and experience level.</p>
+        <p>Finance, Sales, Marketing, or Operations. Select your target sector and experience level.</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="step reveal d2">
+      <div class="step reveal d2">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="step-bg-n">3</div>
+        <div class="step-bg-n">3</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="step-tag">Step 03</span>
+        <span class="step-tag">Step 03</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Pay ₹199</h3>
+        <h3>Pay ₹199</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>One-time. No subscription. No hidden fees. UPI, card, or net banking accepted.</p>
+        <p>One-time. No subscription. No hidden fees. UPI, card, or net banking accepted.</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="step reveal d3">
+      <div class="step reveal d3">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="step-bg-n">4</div>
+        <div class="step-bg-n">4</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="step-tag">Step 04</span>
+        <span class="step-tag">Step 04</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Get HR Contacts</h3>
+        <h3>Get HR Contacts</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>10 matched roles with HR name, email, LinkedIn, and a ready-to-send outreach email draft.</p>
+        <p>10 matched roles with HR name, email, LinkedIn, and a ready-to-send outreach email draft.</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- FEATURES -->
+undefined
+> <section class="feat-section" id="features">
+<section class="feat-section" id="features">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="feat-head">
+  <div class="feat-head">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="sec-tag reveal">What You Get</div>
+    <div class="sec-tag reveal">What You Get</div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <h2 class="reveal">Everything to<br><em>land the interview.</em></h2>
+    <h2 class="reveal">Everything to<br><em>land the interview.</em></h2>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="feat-grid">
+  <div class="feat-grid">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="feat reveal">
+    <div class="feat reveal">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <span class="feat-tag">AI Matching</span>
+      <span class="feat-tag">AI Matching</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="feat-num">01</div>
+      <div class="feat-num">01</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h3>Resume-Matched Roles</h3>
+      <h3>Resume-Matched Roles</h3>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p>AI reads your resume and finds 10 roles aligned with your exact skills and experience. No irrelevant listings, no noise.</p>
+      <p>AI reads your resume and finds 10 roles aligned with your exact skills and experience. No irrelevant listings,no noise.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="feat reveal d1">
+    <div class="feat reveal d1">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <span class="feat-tag">Direct Access</span>
+      <span class="feat-tag">Direct Access</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="feat-num">02</div>
+      <div class="feat-num">02</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h3>Real HR Emails</h3>
+      <h3>Real HR Emails</h3>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p>Every match has the HR manager's name, direct email and LinkedIn. Reach the decision maker — not a generic form.</p>
+      <p>Every match has the HR manager's name, direct email and LinkedIn. Reach the decision maker — not a generic form.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="feat reveal d2">
+    <div class="feat reveal d2">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <span class="feat-tag">AI-Written</span>
+      <span class="feat-tag">AI-Written</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="feat-num">03</div>
+      <div class="feat-num">03</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h3>Outreach Email Draft</h3>
+      <h3>Outreach Email Draft</h3>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p>One click writes a personalised cold email per role — referencing your background and the company's needs. Copy, paste, send.</p>
+      <p>One click writes a personalised cold email per role — referencing your background and the company's needs. Copy, paste, send.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="feat reveal">
+    <div class="feat reveal">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <span class="feat-tag">Ranked</span>
+      <span class="feat-tag">Ranked</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="feat-num">04</div>
+      <div class="feat-num">04</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h3>Match Score Per Role</h3>
+      <h3>Match Score Per Role</h3>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p>Each job scored 0–100 based on how well your profile aligns. Focus your energy on the highest-fit opportunities first.</p>
+      <p>Each job scored 0–100 based on how well your profile aligns. Focus your energy on the highest-fit opportunities first.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="feat reveal d1">
+    <div class="feat reveal d1">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <span class="feat-tag">Instant</span>
+      <span class="feat-tag">Instant</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="feat-num">05</div>
+      <div class="feat-num">05</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h3>Results in 60 Seconds</h3>
+      <h3>Results in 60 Seconds</h3>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p>No waiting. No human in the loop. From upload to 10 matched jobs with contacts in under a minute, every time.</p>
+      <p>No waiting. No human in the loop. From upload to 10 matched jobs with contacts in under a minute, every time.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="feat reveal d2">
+    <div class="feat reveal d2">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <span class="feat-tag">Multi-Field</span>
+      <span class="feat-tag">Multi-Field</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="feat-num">06</div>
+      <div class="feat-num">06</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h3>4 Career Categories</h3>
+      <h3>4 Career Categories</h3>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p>Finance & Banking · Sales & BD · Marketing & Growth · Operations & Strategy. Search multiple fields in one run.</p>
+      <p>Finance & Banking · Sales & BD · Marketing & Growth · Operations & Strategy. Search multiple fields in one run.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- TESTIMONIALS -->
+undefined
+> <section class="testi-section">
+<section class="testi-section">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="testi-head">
+  <div class="testi-head">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="sec-tag reveal">Early Users</div>
+    <div class="sec-tag reveal">Early Users</div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <h2 class="reveal">What people<br>are <em>saying.</em></h2>
+    <h2 class="reveal">What people<br>are <em>saying.</em></h2>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="testi-grid">
+  <div class="testi-grid">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="testi reveal">
+    <div class="testi reveal">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-stars">★★★★★</div>
+      <div class="testi-stars">★★★★★</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-mark">"</div>
+      <div class="testi-mark">"</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p class="testi-text">I sent 3 cold emails using the outreach drafts ReachRight gave me. Got 2 replies in a week. One turned into an interview at a boutique IB firm. Worth every rupee.</p>
+      <p class="testi-text">I sent 3 cold emails using the outreach drafts ReachRight gave me. Got 2 replies in a week.One turned into an interview at a boutique IB firm. Worth every rupee.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-line"></div>
+      <div class="testi-line"></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-person">
+      <div class="testi-person">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="testi-av">R</div>
+        <div class="testi-av">R</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div><div class="testi-name">Rohan M.</div><div class="testi-role">Finance Analyst · Mumbai</div></div>
+        <div><div class="testi-name">Rohan M.</div><div class="testi-role">Finance Analyst · Mumbai</div></div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="testi reveal d1">
+    <div class="testi reveal d1">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-stars">★★★★★</div>
+      <div class="testi-stars">★★★★★</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-mark">"</div>
+      <div class="testi-mark">"</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p class="testi-text">As a fresher I had no idea how to approach HRs directly. ReachRight gave me actual names and emails — not just "apply here" links. Complete game-changer.</p>
+      <p class="testi-text">As a fresher I had no idea how to approach HRs directly. ReachRight gave me actual names and emails — not just "apply here" links. Complete game-changer.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-line"></div>
+      <div class="testi-line"></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-person">
+      <div class="testi-person">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="testi-av">P</div>
+        <div class="testi-av">P</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div><div class="testi-name">Priya S.</div><div class="testi-role">MBA Graduate · Bengaluru</div></div>
+        <div><div class="testi-name">Priya S.</div><div class="testi-role">MBA Graduate · Bengaluru</div></div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="testi reveal d2">
+    <div class="testi reveal d2">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-stars">★★★★★</div>
+      <div class="testi-stars">★★★★★</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-mark">"</div>
+      <div class="testi-mark">"</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p class="testi-text">3 months on Naukri, zero luck. One ReachRight search gave me more actionable leads than months of traditional applying. Worth every rupee.</p>
+      <p class="testi-text">3 months on Naukri, zero luck. One ReachRight search gave me more actionable leads than months of traditional applying. Worth every rupee.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-line"></div>
+      <div class="testi-line"></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="testi-person">
+      <div class="testi-person">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="testi-av">A</div>
+        <div class="testi-av">A</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div><div class="testi-name">Arjun K.</div><div class="testi-role">Sales Manager · Delhi NCR</div></div>
+        <div><div class="testi-name">Arjun K.</div><div class="testi-role">Sales Manager · Delhi NCR</div></div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- CATEGORIES -->
+undefined
+> <section class="cat-section">
+<section class="cat-section">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="cat-inner">
+  <div class="cat-inner">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="sec-tag reveal">Career Fields</div>
+    <div class="sec-tag reveal">Career Fields</div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <h2 class="reveal">Built for India's<br>top <em>growth sectors.</em></h2>
+    <h2 class="reveal">Built for India's<br>top <em>growth sectors.</em></h2>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="cat-grid">
+    <div class="cat-grid">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="cat reveal">
+      <div class="cat reveal">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="cat-letter">F</div>
+        <div class="cat-letter">F</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Finance & Banking</h3>
+        <h3>Finance & Banking</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>Equity Research · Investment Banking · Credit · AMC · PMS · AIF · Fintech</p>
+        <p>Equity Research · Investment Banking · Credit · AMC · PMS · AIF · Fintech</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="cat reveal d1">
+      <div class="cat reveal d1">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="cat-letter">S</div>
+        <div class="cat-letter">S</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Sales & Business Dev</h3>
+        <h3>Sales & Business Dev</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>B2B Sales · Enterprise · Partnerships · Revenue Growth · Account Management</p>
+        <p>B2B Sales · Enterprise · Partnerships · Revenue Growth · Account Management</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="cat reveal d2">
+      <div class="cat reveal d2">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="cat-letter">M</div>
+        <div class="cat-letter">M</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Marketing & Growth</h3>
+        <h3>Marketing & Growth</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>Digital · Performance · Brand · Content · SEO · Social · Growth Hacking</p>
+        <p>Digital · Performance · Brand · Content · SEO · Social · Growth Hacking</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="cat reveal d3">
+      <div class="cat reveal d3">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="cat-letter">O</div>
+        <div class="cat-letter">O</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h3>Operations & Strategy</h3>
+        <h3>Operations & Strategy</h3>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <p>Strategy · Consulting · Operations · Supply Chain · Chief of Staff · PMO</p>
+        <p>Strategy · Consulting · Operations · Supply Chain · Chief of Staff · PMO</p>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- PRICING -->
+undefined
+> <section class="pricing-section" id="pricing">
+<section class="pricing-section" id="pricing">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="pricing-inner">
+  <div class="pricing-inner">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="pricing-left">
+    <div class="pricing-left">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="sec-tag reveal">Pricing</div>
+      <div class="sec-tag reveal">Pricing</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <h2 class="reveal">Simple.<br><em>Honest.</em></h2>
+      <h2 class="reveal">Simple.<br><em>Honest.</em></h2>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <p class="reveal">No subscriptions. No hidden fees. Pay once, get your matches and HR contacts. That's it.</p>
+      <p class="reveal">No subscriptions. No hidden fees. Pay once, get your matches and HR contacts. That's it.</p>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="check-list">
+      <div class="check-list">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="check-row reveal"><div class="check-dot">✓</div>10 AI-matched job listings</div>
+        <div class="check-row reveal"><div class="check-dot">✓</div>10 AI-matched job listings</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="check-row reveal d1"><div class="check-dot">✓</div>HR name & direct email per role</div>
+        <div class="check-row reveal d1"><div class="check-dot">✓</div>HR name & direct email per role</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="check-row reveal d1"><div class="check-dot">✓</div>LinkedIn profiles where available</div>
+        <div class="check-row reveal d1"><div class="check-dot">✓</div>LinkedIn profiles where available</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="check-row reveal d2"><div class="check-dot">✓</div>Personalised outreach email per role</div>
+        <div class="check-row reveal d2"><div class="check-dot">✓</div>Personalised outreach email per role</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="check-row reveal d2"><div class="check-dot">✓</div>Match score for each job (0–100)</div>
+        <div class="check-row reveal d2"><div class="check-dot">✓</div>Match score for each job (0–100)</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div class="check-row reveal d3"><div class="check-dot">✓</div>Results delivered instantly</div>
+        <div class="check-row reveal d3"><div class="check-dot">✓</div>Results delivered instantly</div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="price-card reveal">
+    <div class="price-card reveal">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="beta-pill">🎉 Beta — 50% off · First 100 users only</div>
+      <div class="beta-pill">🎉 Beta — 50% off · First 100 users only</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="price-display">
+      <div class="price-display">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="price-sym">₹</span>
+        <span class="price-sym">₹</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="price-num">99</span>
+        <span class="price-num">99</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </div>
+      </div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="price-note">normally <s>₹199</s> · one-time · per search</div>
+      <div class="price-note">normally <s>₹199</s> · one-time · per search</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header"
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header"
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>          target="_blank" class="price-btn">Claim Beta Access →</a>
+         target="_blank" class="price-btn">Claim Beta Access →</a>
+                         ^^^^^
+
+Uncaught SyntaxError: Unexpected token 'class'
+>       <div class="price-secure">🔐 Razorpay secured · UPI / Cards / Net Banking</div>
+      <div class="price-secure">🔐 Razorpay secured · UPI / Cards / Net Banking</div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- FAQ -->
+undefined
+> <section class="faq-section" id="faq">
+<section class="faq-section" id="faq">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="faq-inner">
+  <div class="faq-inner">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="sec-tag reveal">FAQ</div>
+    <div class="sec-tag reveal">FAQ</div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <h2 class="reveal" style="margin-bottom:44px">Questions <em>answered.</em></h2>
+    <h2 class="reveal" style="margin-bottom:44px">Questions <em>answered.</em></h2>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="faq-item">
+    <div class="faq-item">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <button class="faq-btn" onclick="faq(this)">
+      <button class="faq-btn" onclick="faq(this)">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-q">Are the HR emails real and verified?</span>
+        <span class="faq-q">Are the HR emails real and verified?</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-ic">+</span>
+        <span class="faq-ic">+</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </button>
+      </button>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="faq-body"><p>Our AI sources HR contacts from publicly available professional databases and LinkedIn. Most emails follow standard formats (name@company.com) and are highly likely to be active. We recommend a quick LinkedIn verify before sending.</p></div>
+      <div class="faq-body"><p>Our AI sources HR contacts from publicly available professional databases and LinkedIn. Most emails follow standard formats (name@company.com) and are highly likely to be active. We recommend a quick LinkedInverify before sending.</p></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="faq-item">
+    <div class="faq-item">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <button class="faq-btn" onclick="faq(this)">
+      <button class="faq-btn" onclick="faq(this)">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-q">What if I'm not happy with the results?</span>
+        <span class="faq-q">What if I'm not happy with the results?</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-ic">+</span>
+        <span class="faq-ic">+</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </button>
+      </button>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="faq-body"><p>Reach out to support@reachrights.com within 24 hours and we'll run a fresh search for you at no charge.</p></div>
+      <div class="faq-body"><p>Reach out to support@reachrights.com within 24 hours and we'll run a fresh search for you at no charge.</p></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="faq-item">
+    <div class="faq-item">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <button class="faq-btn" onclick="faq(this)">
+      <button class="faq-btn" onclick="faq(this)">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-q">Which cities and roles are covered?</span>
+        <span class="faq-q">Which cities and roles are covered?</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-ic">+</span>
+        <span class="faq-ic">+</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </button>
+      </button>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="faq-body"><p>Pan-India with focus on Mumbai, Delhi NCR, Bengaluru, Hyderabad, Pune, and Chennai. Finance & Banking, Sales, Marketing, and Operations across all experience levels from fresher to 10+ years.</p></div>
+      <div class="faq-body"><p>Pan-India with focus on Mumbai, Delhi NCR, Bengaluru, Hyderabad, Pune, and Chennai. Finance & Banking, Sales, Marketing, and Operations across all experience levels from fresher to 10+ years.</p></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="faq-item">
+    <div class="faq-item">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <button class="faq-btn" onclick="faq(this)">
+      <button class="faq-btn" onclick="faq(this)">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-q">How is this different from Naukri or LinkedIn?</span>
+        <span class="faq-q">How is this different from Naukri or LinkedIn?</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-ic">+</span>
+        <span class="faq-ic">+</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </button>
+      </button>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="faq-body"><p>Job boards show hundreds of listings you manually filter. ReachRight gives 10 precision-matched roles with direct HR emails and a personalised outreach email — reach out directly instead of applying blind.</p></div>
+      <div class="faq-body"><p>Job boards show hundreds of listings you manually filter. ReachRight gives 10 precision-matched roles with direct HR emails and a personalised outreach email — reach out directly instead of applying blind.</p></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <div class="faq-item">
+    <div class="faq-item">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <button class="faq-btn" onclick="faq(this)">
+      <button class="faq-btn" onclick="faq(this)">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-q">Is my resume data safe?</span>
+        <span class="faq-q">Is my resume data safe?</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <span class="faq-ic">+</span>
+        <span class="faq-ic">+</span>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </button>
+      </button>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       <div class="faq-body"><p>Yes. Your data is encrypted, used only to generate your job matches, and never shared with third parties.</p></div>
+      <div class="faq-body"><p>Yes. Your data is encrypted, used only to generate your job matches, and never shared with third parties.</p></div>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- WAITLIST -->
+undefined
+> <section class="wl-section" id="waitlist">
+<section class="wl-section" id="waitlist">
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="wl-glow"></div>
+  <div class="wl-glow"></div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="sec-tag reveal">Early Access</div>
+  <div class="sec-tag reveal">Early Access</div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <h2 class="reveal">Your next job is<br><em>one search away.</em></h2>
+  <h2 class="reveal">Your next job is<br><em>one search away.</em></h2>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <p class="reveal">Join 200+ professionals on the waitlist.<br>Beta launching soon — first 100 users get 50% off.</p>
+  <p class="reveal">Join 200+ professionals on the waitlist.<br>Beta launching soon — first 100 users get 50% off.</p>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="wl-box reveal">
+  <div class="wl-box reveal">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header"
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header"
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>        target="_blank" class="wl-btn">
+       target="_blank" class="wl-btn">
+                       ^^^^^
+
+Uncaught SyntaxError: Unexpected token 'class'
+>       Join the Waitlist — It's Free
+      Join the Waitlist — It's Free
+           ^^^
+
+Uncaught SyntaxError: Unexpected identifier 'the'
+>       <span class="wl-btn-arrow">→</span>
+      <span class="wl-btn-arrow">→</span>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </a>
+    </a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <p class="wl-note">No spam · Launch notification only · First 100 users get 50% off</p>
+    <p class="wl-note">No spam · Launch notification only · First 100 users get 50% off</p>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </section>
+</section>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <!-- FOOTER -->
+undefined
+> <footer>
+<footer>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <a href="#" class="foot-logo"><span class="logo-dot"></span>ReachRight</a>
+  <a href="#" class="foot-logo"><span class="logo-dot"></span>ReachRight</a>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="foot-links">
+  <div class="foot-links">
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#">Privacy Policy</a>
+    <a href="#">Privacy Policy</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="#">Terms of Service</a>
+    <a href="#">Terms of Service</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     <a href="mailto:support@reachrights.com">support@reachrights.com</a>
+    <a href="mailto:support@reachrights.com">support@reachrights.com</a>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   </div>
+  </div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   <div class="foot-copy">© 2025 ReachRight · Made in India 🇮🇳</div>
+  <div class="foot-copy">© 2025 ReachRight · Made in India 🇮🇳</div>
+  ^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </footer>
+</footer>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+> <script>
+<script>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> // Scroll reveal
+undefined
+> const obs = new IntersectionObserver(entries => {
+|   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+| }, { threshold: 0.08 });
+Uncaught ReferenceError: IntersectionObserver is not defined
+> document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+Uncaught ReferenceError: document is not defined
+>
+> // FAQ
+undefined
+> function faq(btn) {
+|   const body = btn.nextElementSibling;
+|   const isOpen = body.classList.contains('open');
+|   document.querySelectorAll('.faq-body').forEach(b => b.classList.remove('open'));
+|   document.querySelectorAll('.faq-btn').forEach(b => b.classList.remove('open'));
+|   if (!isOpen) { body.classList.add('open'); btn.classList.add('open'); }
+| }
+undefined
+>
+> // Smooth scroll
+undefined
+> document.querySelectorAll('a[href^="#"]').forEach(a => {
+|   a.addEventListener('click', e => {
+|     const t = document.querySelector(a.getAttribute('href'));
+|     if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+|   });
+| });
+Uncaught ReferenceError: document is not defined
+> </script>
+</script>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </body>
+</body>
+^
+
+Uncaught SyntaxError: Unexpected token '<'
+> </html>
+fwd-i-search: _
