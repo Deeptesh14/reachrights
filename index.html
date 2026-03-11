@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>ReachRights — Find Finance Jobs with Direct HR Contacts</title>
-<meta name="description" content="Upload your resume. Get 10 matched jobs(Per Day) with real HR emails in 60 seconds. Monthly ₹199."/>
+<meta name="description" content="Upload your resume. Get 10 matched jobs with real HR emails in 60 seconds. Free during beta."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
@@ -23,340 +23,146 @@
 }
 html{scroll-behavior:smooth}
 body{background:var(--black);color:var(--text2);font-family:'Instrument Sans',sans-serif;overflow-x:hidden}
-
-/* NAV */
-nav{
-  position:fixed;top:0;left:0;right:0;z-index:100;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:20px 64px;
-  background:rgba(9,9,11,0.92);
-  backdrop-filter:blur(20px);
-  border-bottom:1px solid var(--border);
-}
-.logo{
-  font-family:'Fraunces',serif;font-size:20px;font-weight:400;
-  color:var(--white);text-decoration:none;display:flex;align-items:center;gap:8px;
-  letter-spacing:-0.3px;
-}
-.logo-dot{
-  width:6px;height:6px;border-radius:50%;background:var(--gold);
-  animation:blink 2.5s ease-in-out infinite;flex-shrink:0;
-}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:20px 64px;background:rgba(9,9,11,0.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.logo{font-family:'Fraunces',serif;font-size:20px;font-weight:400;color:var(--white);text-decoration:none;display:flex;align-items:center;gap:8px;letter-spacing:-0.3px}
+.logo-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:blink 2.5s ease-in-out infinite;flex-shrink:0}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}
 .nav-links{display:flex;gap:36px}
 .nav-links a{font-size:13px;font-weight:500;color:var(--text);text-decoration:none;transition:color .15s}
 .nav-links a:hover{color:var(--white)}
-.nav-cta{
-  background:var(--white);color:var(--black);border:none;border-radius:6px;
-  padding:10px 24px;font-size:13px;font-weight:600;cursor:pointer;
-  font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;
-}
+.nav-cta{background:var(--white);color:var(--black);border:none;border-radius:6px;padding:10px 24px;font-size:13px;font-weight:600;cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none}
 .nav-cta:hover{background:var(--gold2)}
-
-/* HERO */
-.hero{
-  min-height:100vh;display:flex;flex-direction:column;justify-content:center;
-  padding:160px 64px 100px;border-bottom:1px solid var(--border);
-  position:relative;overflow:hidden;
-}
-.hero-grid{
-  position:absolute;inset:0;
-  background-image:
-    linear-gradient(rgba(201,168,76,0.03) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(201,168,76,0.03) 1px,transparent 1px);
-  background-size:64px 64px;pointer-events:none;
-}
-.hero-glow{
-  position:absolute;top:10%;right:-5%;
-  width:700px;height:700px;border-radius:50%;
-  background:radial-gradient(circle,rgba(201,168,76,0.05) 0%,transparent 70%);
-  pointer-events:none;
-}
-.badge{
-  display:inline-flex;align-items:center;gap:8px;
-  background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.2);
-  padding:7px 18px;border-radius:100px;margin-bottom:36px;width:fit-content;
-}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:160px 64px 100px;border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(201,168,76,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,0.03) 1px,transparent 1px);background-size:64px 64px;pointer-events:none}
+.hero-glow{position:absolute;top:10%;right:-5%;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(201,168,76,0.05) 0%,transparent 70%);pointer-events:none}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.2);padding:7px 18px;border-radius:100px;margin-bottom:36px;width:fit-content}
 .badge-dot{width:5px;height:5px;border-radius:50%;background:var(--gold);animation:blink 2s infinite}
 .badge span{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold)}
-h1{
-  font-family:'Fraunces',serif;
-  font-size:clamp(52px,7vw,96px);
-  font-weight:300;line-height:1.0;
-  color:var(--white);letter-spacing:-3px;
-  max-width:900px;margin-bottom:28px;
-}
+h1{font-family:'Fraunces',serif;font-size:clamp(52px,7vw,96px);font-weight:300;line-height:1.0;color:var(--white);letter-spacing:-3px;max-width:900px;margin-bottom:28px}
 h1 em{font-style:italic;color:var(--gold)}
-.hero-sub{
-  font-size:18px;line-height:1.8;color:var(--text2);
-  max-width:520px;margin-bottom:48px;
-}
+.hero-sub{font-size:18px;line-height:1.8;color:var(--text2);max-width:520px;margin-bottom:48px}
 .hero-sub strong{color:var(--white);font-weight:500}
 .hero-btns{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:72px}
-.btn-primary{
-  background:var(--gold);color:var(--black);border:none;border-radius:7px;
-  padding:16px 36px;font-size:15px;font-weight:700;cursor:pointer;
-  font-family:'Instrument Sans',sans-serif;transition:all .22s;
-  text-decoration:none;display:inline-block;letter-spacing:0.2px;
-}
+.btn-primary{background:var(--gold);color:var(--black);border:none;border-radius:7px;padding:16px 36px;font-size:15px;font-weight:700;cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .22s;text-decoration:none;display:inline-block;letter-spacing:0.2px}
 .btn-primary:hover{background:var(--gold2);transform:translateY(-2px);box-shadow:0 16px 48px rgba(201,168,76,0.2)}
-.btn-ghost{
-  background:transparent;color:var(--text2);border:1px solid var(--border);
-  border-radius:7px;padding:16px 28px;font-size:14px;font-weight:500;cursor:pointer;
-  font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;display:inline-block;
-}
+.btn-ghost{background:transparent;color:var(--text2);border:1px solid var(--border);border-radius:7px;padding:16px 28px;font-size:14px;font-weight:500;cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;display:inline-block}
 .btn-ghost:hover{border-color:rgba(255,255,255,0.2);color:var(--white)}
 .hero-stats{display:flex;gap:0;flex-wrap:wrap}
 .hstat{padding:0 40px 0 0;border-right:1px solid var(--border);margin-right:40px}
 .hstat:last-child{border-right:none;margin-right:0;padding-right:0}
 .hstat-val{font-family:'Fraunces',serif;font-size:32px;font-weight:300;color:var(--white);line-height:1;letter-spacing:-1px}
 .hstat-lbl{font-size:11px;color:var(--text);letter-spacing:1.5px;text-transform:uppercase;margin-top:6px}
-
-/* TICKER */
-.ticker-wrap{
-  background:var(--surface);border-bottom:1px solid var(--border);
-  padding:14px 0;overflow:hidden;
-}
+.ticker-wrap{background:var(--surface);border-bottom:1px solid var(--border);padding:14px 0;overflow:hidden}
 .ticker-inner{display:flex;animation:ticker 40s linear infinite;width:max-content}
 @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.t{
-  font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
-  color:var(--text);padding:0 32px;border-right:1px solid var(--border);
-  white-space:nowrap;line-height:1;
-}
+.t{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--text);padding:0 32px;border-right:1px solid var(--border);white-space:nowrap;line-height:1}
 .t.g{color:var(--gold)}
-
-/* PROOF */
-.proof{
-  padding:36px 64px;border-bottom:1px solid var(--border);
-  display:flex;align-items:center;gap:48px;flex-wrap:wrap;
-}
+.proof{padding:36px 64px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:48px;flex-wrap:wrap}
 .proof-lbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--text);flex-shrink:0}
 .proof-logos{display:flex;gap:40px;flex-wrap:wrap;align-items:center}
 .proof-logo{font-family:'Fraunces',serif;font-size:15px;color:rgba(255,255,255,0.18);letter-spacing:-0.2px}
-
-/* PROBLEM */
-.problem{
-  display:grid;grid-template-columns:1fr 1fr;
-  border-bottom:1px solid var(--border);
-}
-.problem-left{
-  padding:80px 64px;border-right:1px solid var(--border);
-  display:flex;flex-direction:column;justify-content:center;
-}
+.problem{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--border)}
+.problem-left{padding:80px 64px;border-right:1px solid var(--border);display:flex;flex-direction:column;justify-content:center}
 .problem-right{padding:80px 64px;display:flex;flex-direction:column;justify-content:center;background:var(--surface)}
 .sec-tag{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
-h2{
-  font-family:'Fraunces',serif;font-size:clamp(32px,3.5vw,52px);
-  font-weight:300;color:var(--white);line-height:1.08;letter-spacing:-1.5px;margin-bottom:20px;
-}
+h2{font-family:'Fraunces',serif;font-size:clamp(32px,3.5vw,52px);font-weight:300;color:var(--white);line-height:1.08;letter-spacing:-1.5px;margin-bottom:20px}
 h2 em{font-style:italic;color:var(--gold)}
 .problem-desc{font-size:15px;line-height:1.85;color:var(--text2)}
 .pain-list{display:flex;flex-direction:column;margin-top:8px}
 .pain{display:flex;gap:20px;padding:22px 0;border-top:1px solid var(--border)}
-.pain-n{
-  font-family:'Fraunces',serif;font-size:11px;color:rgba(201,168,76,0.5);
-  flex-shrink:0;padding-top:3px;letter-spacing:1px;
-}
+.pain-n{font-family:'Fraunces',serif;font-size:11px;color:rgba(201,168,76,0.5);flex-shrink:0;padding-top:3px;letter-spacing:1px}
 .pain h4{font-size:14px;font-weight:600;color:var(--white);margin-bottom:5px;letter-spacing:-0.2px}
 .pain p{font-size:13px;color:var(--text2);line-height:1.65}
-
-/* HOW IT WORKS */
 .hiw-wrap{border-bottom:1px solid var(--border)}
 .hiw{max-width:1200px;margin:0 auto;padding:96px 64px}
 .hiw-top{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:64px;flex-wrap:wrap;gap:24px}
 .hiw-top p{font-size:14px;color:var(--text2);max-width:280px;line-height:1.75}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border)}
-.step{
-  background:var(--black);padding:40px 28px;
-  position:relative;overflow:hidden;transition:background .25s;
-}
+.step{background:var(--black);padding:40px 28px;position:relative;overflow:hidden;transition:background .25s}
 .step:hover{background:var(--surface)}
-.step-bg-n{
-  font-family:'Fraunces',serif;font-size:88px;font-weight:300;
-  color:rgba(255,255,255,0.025);position:absolute;top:8px;right:14px;
-  line-height:1;pointer-events:none;letter-spacing:-4px;
-}
-.step-tag{
-  font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
-  color:var(--gold);margin-bottom:16px;display:block;
-}
+.step-bg-n{font-family:'Fraunces',serif;font-size:88px;font-weight:300;color:rgba(255,255,255,0.025);position:absolute;top:8px;right:14px;line-height:1;pointer-events:none;letter-spacing:-4px}
+.step-tag{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:16px;display:block}
 .step h3{font-size:15px;font-weight:600;color:var(--white);margin-bottom:10px;letter-spacing:-0.2px}
 .step p{font-size:13px;color:var(--text2);line-height:1.7}
-
-/* FEATURES */
 .feat-section{padding:96px 0;border-bottom:1px solid var(--border)}
 .feat-head{padding:0 64px;margin-bottom:56px}
 .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
-.feat{
-  background:var(--black);padding:44px 36px;
-  position:relative;overflow:hidden;transition:background .25s;
-}
+.feat{background:var(--black);padding:44px 36px;position:relative;overflow:hidden;transition:background .25s}
 .feat:hover{background:var(--surface)}
-.feat::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,var(--gold),transparent);
-  opacity:0;transition:opacity .25s;
-}
+.feat::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity .25s}
 .feat:hover::before{opacity:1}
 .feat-tag{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;display:block}
 .feat h3{font-size:16px;font-weight:600;color:var(--white);margin-bottom:10px;letter-spacing:-0.2px}
 .feat p{font-size:13px;color:var(--text2);line-height:1.78}
-.feat-num{
-  font-family:'Fraunces',serif;font-size:48px;font-weight:300;
-  color:rgba(201,168,76,0.12);line-height:1;margin-bottom:20px;letter-spacing:-2px;
-}
-
-/* TESTIMONIALS */
+.feat-num{font-family:'Fraunces',serif;font-size:48px;font-weight:300;color:rgba(201,168,76,0.12);line-height:1;margin-bottom:20px;letter-spacing:-2px}
 .testi-section{padding:96px 64px;border-bottom:1px solid var(--border)}
 .testi-head{margin-bottom:52px}
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.testi{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:14px;padding:32px;transition:border-color .2s;
-}
+.testi{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:32px;transition:border-color .2s}
 .testi:hover{border-color:rgba(201,168,76,0.22)}
 .testi-stars{color:var(--gold);font-size:12px;letter-spacing:3px;margin-bottom:14px}
-.testi-mark{
-  font-family:'Fraunces',serif;font-size:56px;color:var(--gold);
-  opacity:0.1;line-height:0.75;margin-bottom:14px;
-}
+.testi-mark{font-family:'Fraunces',serif;font-size:56px;color:var(--gold);opacity:0.1;line-height:0.75;margin-bottom:14px}
 .testi-text{font-size:14px;line-height:1.82;color:var(--white);margin-bottom:24px}
 .testi-line{height:1px;background:var(--border);margin-bottom:20px}
 .testi-person{display:flex;align-items:center;gap:13px}
-.testi-av{
-  width:40px;height:40px;border-radius:50%;
-  background:linear-gradient(135deg,var(--gold),#7a5a10);
-  display:flex;align-items:center;justify-content:center;
-  font-family:'Fraunces',serif;font-size:16px;color:var(--black);flex-shrink:0;
-}
+.testi-av{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--gold),#7a5a10);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-size:16px;color:var(--black);flex-shrink:0}
 .testi-name{font-size:13px;font-weight:600;color:var(--white)}
 .testi-role{font-size:12px;color:var(--text);margin-top:2px}
-
-/* PRICING */
 .pricing-section{padding:96px 64px;border-bottom:1px solid var(--border)}
 .pricing-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
 .pricing-left p{font-size:15px;color:var(--text2);line-height:1.8;margin:18px 0 32px}
 .check-list{display:flex;flex-direction:column;gap:13px}
 .check-row{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text2)}
-.check-dot{
-  width:20px;height:20px;border-radius:50%;
-  background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.22);
-  display:flex;align-items:center;justify-content:center;flex-shrink:0;
-  font-size:11px;color:var(--green);font-weight:700;
-}
-.price-card{
-  background:var(--surface);border:1px solid rgba(201,168,76,0.2);
-  border-radius:18px;padding:44px;position:relative;overflow:hidden;
-}
-.price-card::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,transparent,var(--gold),transparent);
-}
-.beta-pill{
-  display:inline-flex;align-items:center;gap:7px;
-  background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);
-  padding:6px 16px;border-radius:100px;font-size:11px;font-weight:700;
-  color:var(--green);margin-bottom:24px;letter-spacing:0.5px;
-}
+.check-dot{width:20px;height:20px;border-radius:50%;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.22);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:11px;color:var(--green);font-weight:700}
+.price-card{background:var(--surface);border:1px solid rgba(201,168,76,0.2);border-radius:18px;padding:44px;position:relative;overflow:hidden}
+.price-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.beta-pill{display:inline-flex;align-items:center;gap:7px;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);padding:6px 16px;border-radius:100px;font-size:11px;font-weight:700;color:var(--green);margin-bottom:24px;letter-spacing:0.5px}
 .price-display{display:flex;align-items:flex-start;gap:4px;margin-bottom:6px}
-.price-sym{font-family:'Fraunces',serif;font-size:24px;color:var(--text);margin-top:14px}
-.price-num{font-family:'Fraunces',serif;font-size:76px;font-weight:300;color:var(--white);line-height:1;letter-spacing:-4px}
+.price-free{font-family:'Fraunces',serif;font-size:64px;font-weight:300;color:var(--white);line-height:1;letter-spacing:-3px}
 .price-note{font-size:13px;color:var(--text);margin-bottom:30px}
 .price-note s{color:rgba(255,255,255,0.2)}
-.price-btn{
-  width:100%;background:var(--gold);color:var(--black);border:none;
-  border-radius:8px;padding:17px;font-size:15px;font-weight:700;cursor:pointer;
-  font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;
-  display:block;text-align:center;margin-bottom:14px;
-}
+.price-btn{width:100%;background:var(--gold);color:var(--black);border:none;border-radius:8px;padding:17px;font-size:15px;font-weight:700;cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .2s;text-decoration:none;display:block;text-align:center;margin-bottom:14px}
 .price-btn:hover{background:var(--gold2);transform:translateY(-1px);box-shadow:0 12px 40px rgba(201,168,76,0.2)}
 .price-secure{font-size:12px;color:var(--text);text-align:center}
-
-/* CATEGORIES */
 .cat-section{padding:80px 64px;border-bottom:1px solid var(--border);background:var(--surface)}
 .cat-inner{max-width:1100px;margin:0 auto}
 .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);margin-top:48px}
-.cat{
-  background:var(--black);padding:36px 28px;
-  transition:background .2s;border:none;
-}
+.cat{background:var(--black);padding:36px 28px;transition:background .2s;border:none}
 .cat:hover{background:var(--surface2)}
-.cat-letter{
-  font-family:'Fraunces',serif;font-size:40px;font-weight:300;
-  color:rgba(201,168,76,0.2);line-height:1;margin-bottom:18px;letter-spacing:-1px;
-}
+.cat-letter{font-family:'Fraunces',serif;font-size:40px;font-weight:300;color:rgba(201,168,76,0.2);line-height:1;margin-bottom:18px;letter-spacing:-1px}
 .cat h3{font-size:15px;font-weight:600;color:var(--white);margin-bottom:10px}
 .cat p{font-size:12px;color:var(--text);line-height:1.65}
-
-/* FAQ */
 .faq-section{padding:80px 64px;border-bottom:1px solid var(--border)}
 .faq-inner{max-width:680px;margin:0 auto}
 .faq-item{border-top:1px solid var(--border)}
 .faq-item:last-child{border-bottom:1px solid var(--border)}
-.faq-btn{
-  width:100%;background:none;border:none;padding:22px 0;
-  display:flex;justify-content:space-between;align-items:center;
-  cursor:pointer;gap:20px;text-align:left;
-}
+.faq-btn{width:100%;background:none;border:none;padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;gap:20px;text-align:left}
 .faq-q{font-size:15px;font-weight:500;color:var(--white);font-family:'Instrument Sans',sans-serif;line-height:1.4}
-.faq-ic{
-  width:28px;height:28px;border-radius:50%;border:1px solid var(--border);
-  display:flex;align-items:center;justify-content:center;flex-shrink:0;
-  font-size:18px;color:var(--gold);transition:all .2s;font-weight:300;line-height:1;
-}
+.faq-ic{width:28px;height:28px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px;color:var(--gold);transition:all .2s;font-weight:300;line-height:1}
 .faq-btn.open .faq-ic{background:var(--gold);color:var(--black);border-color:var(--gold);transform:rotate(45deg)}
 .faq-body{max-height:0;overflow:hidden;transition:max-height .32s ease,padding .32s ease}
 .faq-body.open{max-height:200px;padding-bottom:24px}
 .faq-body p{font-size:14px;color:var(--text2);line-height:1.82}
-
-/* WAITLIST */
-.wl-section{
-  padding:120px 64px;text-align:center;position:relative;overflow:hidden;
-}
-.wl-glow{
-  position:absolute;inset:0;
-  background:radial-gradient(ellipse 70% 55% at 50% 50%,rgba(201,168,76,0.05) 0%,transparent 100%);
-  pointer-events:none;
-}
-.wl-section h2{
-  font-family:'Fraunces',serif;
-  font-size:clamp(40px,6vw,76px);
-  font-weight:300;color:var(--white);letter-spacing:-2.5px;
-  margin-bottom:18px;position:relative;
-}
+.wl-section{padding:120px 64px;text-align:center;position:relative;overflow:hidden}
+.wl-glow{position:absolute;inset:0;background:radial-gradient(ellipse 70% 55% at 50% 50%,rgba(201,168,76,0.05) 0%,transparent 100%);pointer-events:none}
+.wl-section h2{font-family:'Fraunces',serif;font-size:clamp(40px,6vw,76px);font-weight:300;color:var(--white);letter-spacing:-2.5px;margin-bottom:18px;position:relative}
 .wl-section h2 em{font-style:italic;color:var(--gold)}
 .wl-section>p{font-size:16px;color:var(--text2);margin-bottom:52px;position:relative;line-height:1.75}
 .wl-box{max-width:440px;margin:0 auto;position:relative}
-.wl-btn{
-  display:flex;align-items:center;justify-content:center;gap:10px;
-  width:100%;background:var(--gold);color:var(--black);border:none;
-  border-radius:10px;padding:20px 32px;font-size:16px;font-weight:700;
-  cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .22s;
-  text-decoration:none;letter-spacing:0.2px;
-}
+.wl-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--gold);color:var(--black);border:none;border-radius:10px;padding:20px 32px;font-size:16px;font-weight:700;cursor:pointer;font-family:'Instrument Sans',sans-serif;transition:all .22s;text-decoration:none;letter-spacing:0.2px}
 .wl-btn:hover{background:var(--gold2);transform:translateY(-3px);box-shadow:0 24px 64px rgba(201,168,76,0.2)}
 .wl-btn-arrow{font-size:18px;transition:transform .2s}
 .wl-btn:hover .wl-btn-arrow{transform:translateX(4px)}
 .wl-note{font-size:12px;color:var(--text);margin-top:16px}
-
-/* FOOTER */
-footer{
-  padding:44px 64px;border-top:1px solid var(--border);
-  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
-}
+footer{padding:44px 64px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
 .foot-logo{font-family:'Fraunces',serif;font-size:19px;color:var(--white);text-decoration:none;display:flex;align-items:center;gap:8px}
 .foot-links{display:flex;gap:28px}
 .foot-links a{font-size:12px;color:var(--text);text-decoration:none;transition:color .15s}
 .foot-links a:hover{color:var(--white)}
 .foot-copy{font-size:12px;color:rgba(255,255,255,0.2)}
-
-/* REVEAL */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
 .reveal.in{opacity:1;transform:none}
 .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
-
-/* RESPONSIVE */
 @media(max-width:960px){
   nav{padding:16px 20px}.nav-links{display:none}
   .hero{padding:110px 24px 60px}
@@ -375,7 +181,6 @@ footer{
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
   <a href="#" class="logo"><span class="logo-dot"></span>ReachRights</a>
   <div class="nav-links">
@@ -387,53 +192,31 @@ footer{
   <a href="#waitlist" class="nav-cta">Join Waitlist</a>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-grid"></div>
   <div class="hero-glow"></div>
-  <div class="badge reveal">
-    <span class="badge-dot"></span>
-    <span>AI-Powered · India · Beta</span>
-  </div>
-  <h1 class="reveal d1">
-    Stop applying.<br><em>Start reaching.</em>
-  </h1>
-  <p class="hero-sub reveal d2">
-    Upload your resume. Get <strong>10 curated job matches</strong> with real HR names, emails and LinkedIn profiles — in under 60 seconds. Skip the queue.
-  </p>
+  <div class="badge reveal"><span class="badge-dot"></span><span>AI-Powered · India · Beta</span></div>
+  <h1 class="reveal d1">Stop applying.<br><em>Start reaching.</em></h1>
+  <p class="hero-sub reveal d2">Upload your resume. Get <strong>10 curated job matches</strong> with real HR names, emails and LinkedIn profiles — in under 60 seconds. Skip the queue.</p>
   <div class="hero-btns reveal d3">
     <a href="#waitlist" class="btn-primary">Get Early Access →</a>
     <a href="#how" class="btn-ghost">See how it works</a>
   </div>
   <div class="hero-stats reveal">
-    <div class="hstat">
-      <div class="hstat-val">10</div>
-      <div class="hstat-lbl">Jobs matched</div>
-    </div>
-    <div class="hstat">
-      <div class="hstat-val">60s</div>
-      <div class="hstat-lbl">Delivery time</div>
-    </div>
-    <div class="hstat">
-      <div class="hstat-val">₹199</div>
-      <div class="hstat-lbl">Monthly</div>
-    </div>
-    <div class="hstat">
-      <div class="hstat-val">4</div>
-      <div class="hstat-lbl">Career fields</div>
-    </div>
+    <div class="hstat"><div class="hstat-val">10</div><div class="hstat-lbl">Jobs matched</div></div>
+    <div class="hstat"><div class="hstat-val">60s</div><div class="hstat-lbl">Delivery time</div></div>
+    <div class="hstat"><div class="hstat-val">Free</div><div class="hstat-lbl">During beta</div></div>
+    <div class="hstat"><div class="hstat-val">4</div><div class="hstat-lbl">Career fields</div></div>
   </div>
 </section>
 
-<!-- TICKER -->
 <div class="ticker-wrap">
   <div class="ticker-inner">
-    <span class="t g">ReachRights</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><span class="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">₹199 One-Time</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
-    <span class="t g">ReachRights</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><span class="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">₹199 One-Time</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
+    <span class="t g">ReachRights</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><span class="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">Free Beta Access</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
+    <span class="t g">ReachRights</span><span class="t">Finance & Banking</span><span class="t">Investment Banking</span><span class="t">Equity Research</span><span class="t g">Direct HR Access</span><span class="t">Sales & BD</span><span class="t">Marketing & Growth</span><span class="t">Operations</span><span class="t g">Free Beta Access</span><span class="t">PMS / AIF</span><span class="t">Credit Analysis</span><span class="t">Fintech</span>
   </div>
 </div>
 
-<!-- PROOF BAR -->
 <div class="proof">
   <span class="proof-lbl">Roles at firms like</span>
   <div class="proof-logos">
@@ -448,7 +231,6 @@ footer{
   </div>
 </div>
 
-<!-- PROBLEM -->
 <section class="problem">
   <div class="problem-left">
     <div class="sec-tag reveal">The Problem</div>
@@ -457,32 +239,13 @@ footer{
   </div>
   <div class="problem-right">
     <div class="pain-list">
-      <div class="pain reveal">
-        <span class="pain-n">01</span>
-        <div>
-          <h4>100+ applications, zero callbacks</h4>
-          <p>Your resume competes with thousands. Recruiters see a number, not a person.</p>
-        </div>
-      </div>
-      <div class="pain reveal d1">
-        <span class="pain-n">02</span>
-        <div>
-          <h4>No direct HR contact anywhere</h4>
-          <p>Job postings hide who the recruiter is. You apply blind with no follow-up path.</p>
-        </div>
-      </div>
-      <div class="pain reveal d2">
-        <span class="pain-n">03</span>
-        <div>
-          <h4>Weeks of effort, nothing to show</h4>
-          <p>Tailoring resumes for roles that may not even match your actual background.</p>
-        </div>
-      </div>
+      <div class="pain reveal"><span class="pain-n">01</span><div><h4>100+ applications, zero callbacks</h4><p>Your resume competes with thousands. Recruiters see a number, not a person.</p></div></div>
+      <div class="pain reveal d1"><span class="pain-n">02</span><div><h4>No direct HR contact anywhere</h4><p>Job postings hide who the recruiter is. You apply blind with no follow-up path.</p></div></div>
+      <div class="pain reveal d2"><span class="pain-n">03</span><div><h4>Weeks of effort, nothing to show</h4><p>Tailoring resumes for roles that may not even match your actual background.</p></div></div>
     </div>
   </div>
 </section>
 
-<!-- HOW IT WORKS -->
 <section class="hiw-wrap" id="how">
   <div class="hiw">
     <div class="hiw-top">
@@ -493,159 +256,62 @@ footer{
       <p class="reveal">From resume upload to 10 matched HR contacts in 60 seconds. No job boards, no middlemen.</p>
     </div>
     <div class="steps">
-      <div class="step reveal">
-        <div class="step-bg-n">1</div>
-        <span class="step-tag">Step 01</span>
-        <h3>Upload Resume</h3>
-        <p>Drop your PDF. AI extracts your skills, experience level, and career goals instantly.</p>
-      </div>
-      <div class="step reveal d1">
-        <div class="step-bg-n">2</div>
-        <span class="step-tag">Step 02</span>
-        <h3>Pick Your Field</h3>
-        <p>Finance, Sales, Marketing, or Operations. Select your target sector and experience level.</p>
-      </div>
-      <div class="step reveal d2">
-        <div class="step-bg-n">3</div>
-        <span class="step-tag">Step 03</span>
-        <h3>Pay ₹199</h3>
-        <p>One-time. No subscription. No hidden fees. UPI, card, or net banking accepted.</p>
-      </div>
-      <div class="step reveal d3">
-        <div class="step-bg-n">4</div>
-        <span class="step-tag">Step 04</span>
-        <h3>Get HR Contacts</h3>
-        <p>10 matched roles with HR name, email, LinkedIn, and a ready-to-send outreach email draft.</p>
-      </div>
+      <div class="step reveal"><div class="step-bg-n">1</div><span class="step-tag">Step 01</span><h3>Upload Resume</h3><p>Drop your PDF. AI extracts your skills, experience level, and career goals instantly.</p></div>
+      <div class="step reveal d1"><div class="step-bg-n">2</div><span class="step-tag">Step 02</span><h3>Pick Your Field</h3><p>Finance, Sales, Marketing, or Operations. Select your target sector and experience level.</p></div>
+      <div class="step reveal d2"><div class="step-bg-n">3</div><span class="step-tag">Step 03</span><h3>Join the Beta</h3><p>Free during beta. Fill a quick form — takes 30 seconds. We'll notify you the moment we launch.</p></div>
+      <div class="step reveal d3"><div class="step-bg-n">4</div><span class="step-tag">Step 04</span><h3>Get HR Contacts</h3><p>10 matched roles with HR name, email, LinkedIn, and a ready-to-send outreach email draft.</p></div>
     </div>
   </div>
 </section>
 
-<!-- FEATURES -->
 <section class="feat-section" id="features">
   <div class="feat-head">
     <div class="sec-tag reveal">What You Get</div>
     <h2 class="reveal">Everything to<br><em>land the interview.</em></h2>
   </div>
   <div class="feat-grid">
-    <div class="feat reveal">
-      <span class="feat-tag">AI Matching</span>
-      <div class="feat-num">01</div>
-      <h3>Resume-Matched Roles</h3>
-      <p>AI reads your resume and finds 10 roles aligned with your exact skills and experience. No irrelevant listings, no noise.</p>
-    </div>
-    <div class="feat reveal d1">
-      <span class="feat-tag">Direct Access</span>
-      <div class="feat-num">02</div>
-      <h3>Real HR Emails</h3>
-      <p>Every match has the HR manager's name, direct email and LinkedIn. Reach the decision maker — not a generic form.</p>
-    </div>
-    <div class="feat reveal d2">
-      <span class="feat-tag">AI-Written</span>
-      <div class="feat-num">03</div>
-      <h3>Outreach Email Draft</h3>
-      <p>One click writes a personalised cold email per role — referencing your background and the company's needs. Copy, paste, send.</p>
-    </div>
-    <div class="feat reveal">
-      <span class="feat-tag">Ranked</span>
-      <div class="feat-num">04</div>
-      <h3>Match Score Per Role</h3>
-      <p>Each job scored 0–100 based on how well your profile aligns. Focus your energy on the highest-fit opportunities first.</p>
-    </div>
-    <div class="feat reveal d1">
-      <span class="feat-tag">Instant</span>
-      <div class="feat-num">05</div>
-      <h3>Results in 60 Seconds</h3>
-      <p>No waiting. No human in the loop. From upload to 10 matched jobs with contacts in under a minute, every time.</p>
-    </div>
-    <div class="feat reveal d2">
-      <span class="feat-tag">Multi-Field</span>
-      <div class="feat-num">06</div>
-      <h3>4 Career Categories</h3>
-      <p>Finance & Banking · Sales & BD · Marketing & Growth · Operations & Strategy. Search multiple fields in one run.</p>
-    </div>
+    <div class="feat reveal"><span class="feat-tag">AI Matching</span><div class="feat-num">01</div><h3>Resume-Matched Roles</h3><p>AI reads your resume and finds 10 roles aligned with your exact skills and experience. No irrelevant listings, no noise.</p></div>
+    <div class="feat reveal d1"><span class="feat-tag">Direct Access</span><div class="feat-num">02</div><h3>Real HR Emails</h3><p>Every match has the HR manager's name, direct email and LinkedIn. Reach the decision maker — not a generic form.</p></div>
+    <div class="feat reveal d2"><span class="feat-tag">AI-Written</span><div class="feat-num">03</div><h3>Outreach Email Draft</h3><p>One click writes a personalised cold email per role — referencing your background and the company's needs. Copy, paste, send.</p></div>
+    <div class="feat reveal"><span class="feat-tag">Ranked</span><div class="feat-num">04</div><h3>Match Score Per Role</h3><p>Each job scored 0–100 based on how well your profile aligns. Focus your energy on the highest-fit opportunities first.</p></div>
+    <div class="feat reveal d1"><span class="feat-tag">Instant</span><div class="feat-num">05</div><h3>Results in 60 Seconds</h3><p>No waiting. No human in the loop. From upload to 10 matched jobs with contacts in under a minute, every time.</p></div>
+    <div class="feat reveal d2"><span class="feat-tag">Multi-Field</span><div class="feat-num">06</div><h3>4 Career Categories</h3><p>Finance & Banking · Sales & BD · Marketing & Growth · Operations & Strategy. Search multiple fields in one run.</p></div>
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="testi-section">
   <div class="testi-head">
     <div class="sec-tag reveal">Early Users</div>
     <h2 class="reveal">What people<br>are <em>saying.</em></h2>
   </div>
   <div class="testi-grid">
-    <div class="testi reveal">
-      <div class="testi-stars">★★★★★</div>
-      <div class="testi-mark">"</div>
-      <p class="testi-text">I sent 3 cold emails using the outreach drafts ReachRights gave me. Got 2 replies in a week. One turned into an interview at a boutique IB firm. Worth every rupee.</p>
-      <div class="testi-line"></div>
-      <div class="testi-person">
-        <div class="testi-av">R</div>
-        <div><div class="testi-name">Rohan M.</div><div class="testi-role">Finance Analyst · Mumbai</div></div>
-      </div>
-    </div>
-    <div class="testi reveal d1">
-      <div class="testi-stars">★★★★★</div>
-      <div class="testi-mark">"</div>
-      <p class="testi-text">As a fresher I had no idea how to approach HRs directly. ReachRights gave me actual names and emails — not just "apply here" links. Complete game-changer.</p>
-      <div class="testi-line"></div>
-      <div class="testi-person">
-        <div class="testi-av">P</div>
-        <div><div class="testi-name">Priya S.</div><div class="testi-role">MBA Graduate · Bengaluru</div></div>
-      </div>
-    </div>
-    <div class="testi reveal d2">
-      <div class="testi-stars">★★★★★</div>
-      <div class="testi-mark">"</div>
-      <p class="testi-text">3 months on Naukri, zero luck. One ReachRights search gave me more actionable leads than months of traditional applying.</p>
-      <div class="testi-line"></div>
-      <div class="testi-person">
-        <div class="testi-av">A</div>
-        <div><div class="testi-name">Arjun K.</div><div class="testi-role">Sales Manager · Delhi NCR</div></div>
-      </div>
-    </div>
+    <div class="testi reveal"><div class="testi-stars">★★★★★</div><div class="testi-mark">"</div><p class="testi-text">I sent 3 cold emails using the outreach drafts ReachRights gave me. Got 2 replies in a week. One turned into an interview at a boutique IB firm. Worth every rupee.</p><div class="testi-line"></div><div class="testi-person"><div class="testi-av">R</div><div><div class="testi-name">Rohan M.</div><div class="testi-role">Finance Analyst · Mumbai</div></div></div></div>
+    <div class="testi reveal d1"><div class="testi-stars">★★★★★</div><div class="testi-mark">"</div><p class="testi-text">As a fresher I had no idea how to approach HRs directly. ReachRights gave me actual names and emails — not just "apply here" links. Complete game-changer.</p><div class="testi-line"></div><div class="testi-person"><div class="testi-av">P</div><div><div class="testi-name">Priya S.</div><div class="testi-role">MBA Graduate · Bengaluru</div></div></div></div>
+    <div class="testi reveal d2"><div class="testi-stars">★★★★★</div><div class="testi-mark">"</div><p class="testi-text">3 months on Naukri, zero luck. One ReachRights search gave me more actionable leads than months of traditional applying.</p><div class="testi-line"></div><div class="testi-person"><div class="testi-av">A</div><div><div class="testi-name">Arjun K.</div><div class="testi-role">Sales Manager · Delhi NCR</div></div></div></div>
   </div>
 </section>
 
-<!-- CATEGORIES -->
 <section class="cat-section">
   <div class="cat-inner">
     <div class="sec-tag reveal">Career Fields</div>
     <h2 class="reveal">Built for India's<br>top <em>growth sectors.</em></h2>
     <div class="cat-grid">
-      <div class="cat reveal">
-        <div class="cat-letter">F</div>
-        <h3>Finance & Banking</h3>
-        <p>Equity Research · Investment Banking · Credit · AMC · PMS · AIF · Fintech</p>
-      </div>
-      <div class="cat reveal d1">
-        <div class="cat-letter">S</div>
-        <h3>Sales & Business Dev</h3>
-        <p>B2B Sales · Enterprise · Partnerships · Revenue Growth · Account Management</p>
-      </div>
-      <div class="cat reveal d2">
-        <div class="cat-letter">M</div>
-        <h3>Marketing & Growth</h3>
-        <p>Digital · Performance · Brand · Content · SEO · Social · Growth Hacking</p>
-      </div>
-      <div class="cat reveal d3">
-        <div class="cat-letter">O</div>
-        <h3>Operations & Strategy</h3>
-        <p>Strategy · Consulting · Operations · Supply Chain · Chief of Staff · PMO</p>
-      </div>
+      <div class="cat reveal"><div class="cat-letter">F</div><h3>Finance & Banking</h3><p>Equity Research · Investment Banking · Credit · AMC · PMS · AIF · Fintech</p></div>
+      <div class="cat reveal d1"><div class="cat-letter">S</div><h3>Sales & Business Dev</h3><p>B2B Sales · Enterprise · Partnerships · Revenue Growth · Account Management</p></div>
+      <div class="cat reveal d2"><div class="cat-letter">M</div><h3>Marketing & Growth</h3><p>Digital · Performance · Brand · Content · SEO · Social · Growth Hacking</p></div>
+      <div class="cat reveal d3"><div class="cat-letter">O</div><h3>Operations & Strategy</h3><p>Strategy · Consulting · Operations · Supply Chain · Chief of Staff · PMO</p></div>
     </div>
   </div>
 </section>
 
-<!-- PRICING -->
 <section class="pricing-section" id="pricing">
   <div class="pricing-inner">
     <div class="pricing-left">
-      <div class="sec-tag reveal">Pricing</div>
-      <h2 class="reveal">Simple.<br><em>Honest.</em></h2>
-      <p class="reveal">No subscriptions. No hidden fees. Pay once, get your matches and HR contacts. That's it.</p>
+      <div class="sec-tag reveal">Beta Access</div>
+      <h2 class="reveal">Free now.<br><em>₹199/mo later.</em></h2>
+      <p class="reveal">Join free during beta. When we launch fully, it'll be ₹199/month — early users get first access.</p>
       <div class="check-list">
-        <div class="check-row reveal"><div class="check-dot">✓</div>10 AI-matched job listings (Per Day)</div>
+        <div class="check-row reveal"><div class="check-dot">✓</div>10 AI-matched job listings per day</div>
         <div class="check-row reveal d1"><div class="check-dot">✓</div>HR name & direct email per role</div>
         <div class="check-row reveal d1"><div class="check-dot">✓</div>LinkedIn profiles where available</div>
         <div class="check-row reveal d2"><div class="check-dot">✓</div>Personalised outreach email per role</div>
@@ -654,95 +320,70 @@ footer{
       </div>
     </div>
     <div class="price-card reveal">
-      <div class="beta-pill">🎉 Beta — 50% off · First 100 users only</div>
+      <div class="beta-pill">🚀 Normally ₹199/month · Free during Beta</div>
       <div class="price-display">
-        <span class="price-sym">₹</span>
-        <span class="price-num">99</span>
+        <span class="price-free">Free</span>
       </div>
-      <div class="price-note">normally <s>₹199</s> · one-time · for first month</div>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header"
-         target="_blank" class="price-btn">Claim Beta Access →</a>
-      <div class="price-secure">🔐 Razorpay secured · UPI / Cards / Net Banking</div>
+      <div class="price-note">during beta · <s>₹199/month</s> after launch</div>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header" target="_blank" class="price-btn">Join Free Beta →</a>
+      <div class="price-secure">No credit card · Takes 30 seconds · 100 spots only</div>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
 <section class="faq-section" id="faq">
   <div class="faq-inner">
     <div class="sec-tag reveal">FAQ</div>
     <h2 class="reveal" style="margin-bottom:44px">Questions <em>answered.</em></h2>
     <div class="faq-item">
-      <button class="faq-btn" onclick="faq(this)">
-        <span class="faq-q">Are the HR emails real and verified?</span>
-        <span class="faq-ic">+</span>
-      </button>
+      <button class="faq-btn" onclick="faq(this)"><span class="faq-q">Are the HR emails real and verified?</span><span class="faq-ic">+</span></button>
       <div class="faq-body"><p>Our AI sources HR contacts from publicly available professional databases and LinkedIn. Most emails follow standard formats (name@company.com) and are highly likely to be active. We recommend a quick LinkedIn verify before sending.</p></div>
     </div>
     <div class="faq-item">
-      <button class="faq-btn" onclick="faq(this)">
-        <span class="faq-q">What if I'm not happy with the results?</span>
-        <span class="faq-ic">+</span>
-      </button>
+      <button class="faq-btn" onclick="faq(this)"><span class="faq-q">What if I'm not happy with the results?</span><span class="faq-ic">+</span></button>
       <div class="faq-body"><p>Reach out to Deeptesh@reachrights.com within 24 hours and we'll run a fresh search for you at no charge.</p></div>
     </div>
     <div class="faq-item">
-      <button class="faq-btn" onclick="faq(this)">
-        <span class="faq-q">Which cities and roles are covered?</span>
-        <span class="faq-ic">+</span>
-      </button>
+      <button class="faq-btn" onclick="faq(this)"><span class="faq-q">Which cities and roles are covered?</span><span class="faq-ic">+</span></button>
       <div class="faq-body"><p>Pan-India with focus on Mumbai, Delhi NCR, Bengaluru, Hyderabad, Pune, and Chennai. Finance & Banking, Sales, Marketing, and Operations across all experience levels from fresher to 10+ years.</p></div>
     </div>
     <div class="faq-item">
-      <button class="faq-btn" onclick="faq(this)">
-        <span class="faq-q">How is this different from Naukri or LinkedIn?</span>
-        <span class="faq-ic">+</span>
-      </button>
-      <div class="faq-body"><p>Job boards show hundreds of listings you manually filter. ReachRight gives 10 precision-matched roles with direct HR emails and a personalised outreach email — reach out directly instead of applying blind.</p></div>
+      <button class="faq-btn" onclick="faq(this)"><span class="faq-q">How is this different from Naukri or LinkedIn?</span><span class="faq-ic">+</span></button>
+      <div class="faq-body"><p>Job boards show hundreds of listings you manually filter. ReachRights gives 10 precision-matched roles with direct HR emails and a personalised outreach email — reach out directly instead of applying blind.</p></div>
     </div>
     <div class="faq-item">
-      <button class="faq-btn" onclick="faq(this)">
-        <span class="faq-q">Is my resume data safe?</span>
-        <span class="faq-ic">+</span>
-      </button>
+      <button class="faq-btn" onclick="faq(this)"><span class="faq-q">Is my resume data safe?</span><span class="faq-ic">+</span></button>
       <div class="faq-body"><p>Yes. Your data is encrypted, used only to generate your job matches, and never shared with third parties.</p></div>
     </div>
   </div>
 </section>
 
-<!-- WAITLIST -->
 <section class="wl-section" id="waitlist">
   <div class="wl-glow"></div>
   <div class="sec-tag reveal">Early Access</div>
   <h2 class="reveal">Your next job is<br><em>one search away.</em></h2>
-  <p class="reveal">Join 50+ professionals on the waitlist.<br>Beta launching soon — first 100 users get 50% off.</p>
+  <p class="reveal">Join 50+ professionals on the waitlist.<br>Free during beta — ₹199/month after launch.</p>
   <div class="wl-box reveal">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header"
-       target="_blank" class="wl-btn">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSchHd5jkZuH-8DTmOM7--gIzhtWTFicL79aauna2nrZrv6iXw/viewform?usp=header" target="_blank" class="wl-btn">
       Join the Waitlist — It's Free
       <span class="wl-btn-arrow">→</span>
     </a>
-    <p class="wl-note">No spam · Launch notification only · First 100 users get 50% off</p>
+    <p class="wl-note">No spam · No credit card · Free during beta</p>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <a href="#" class="foot-logo"><span class="logo-dot"></span>ReachRight</a>
-  <div class="foot-links">
-    <a href="mailto:Deeptesh@reachrights.com">Deeptesh@reachrights.com</a>
-  </div>
-  <div class="foot-copy">© 2026 ReachRight · Made in India 🇮🇳</div>
+  <a href="#" class="foot-logo"><span class="logo-dot"></span>ReachRights</a>
+  <div class="foot-links"><a href="mailto:Deeptesh@reachrights.com">Deeptesh@reachrights.com</a></div>
+  <div class="foot-copy">© 2026 ReachRights · Made in India 🇮🇳</div>
 </footer>
 
 <script>
-// Scroll reveal
 const obs = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 
-// FAQ
 function faq(btn) {
   const body = btn.nextElementSibling;
   const isOpen = body.classList.contains('open');
@@ -751,7 +392,6 @@ function faq(btn) {
   if (!isOpen) { body.classList.add('open'); btn.classList.add('open'); }
 }
 
-// Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
     const t = document.querySelector(a.getAttribute('href'));
@@ -761,4 +401,3 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 </script>
 </body>
 </html>
-
